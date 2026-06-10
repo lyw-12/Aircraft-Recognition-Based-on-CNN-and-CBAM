@@ -1,0 +1,13 @@
+Epoch: 8
+Accuracy: 95.00%
+
+                   precision    recall  f1-score   support
+
+   civil_airliner       0.98      1.00      0.99        50
+       helicopter       0.94      0.94      0.94        50
+military_aircraft       0.90      0.94      0.92        50
+              uav       0.98      0.92      0.95        50
+
+         accuracy                           0.95       200
+        macro avg       0.95      0.95      0.95       200
+     weighted avg       0.95      0.95      0.95       200

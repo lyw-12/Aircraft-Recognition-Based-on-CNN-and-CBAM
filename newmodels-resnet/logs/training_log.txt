@@ -1,0 +1,2235 @@
+训练开始时间: 2025-05-14 23:22:51
+数据集路径: C:\Users\32501\PycharmProjects\deeplearning\aircraft_dataset
+训练设备: cuda:0
+批量大小: 32
+学习率: 0.0005
+计划训练轮数: 50
+--------------------------------------------------
+
+正在加载数据集...
+验证集样本数: 2000
+类别: ['civil_airliner', 'helicopter', 'military_aircraft', 'uav']
+训练集样本数: 15104
+测试集样本数: 1990
+开始训练ResNet+注意力机制模型...
+Epoch: 1 | Batch: 50/472 | Loss: 1.1436 | Acc: 53.19%
+Epoch: 1 | Batch: 100/472 | Loss: 1.0331 | Acc: 57.34%
+Epoch: 1 | Batch: 150/472 | Loss: 0.9695 | Acc: 60.08%
+Epoch: 1 | Batch: 200/472 | Loss: 0.9264 | Acc: 62.48%
+Epoch: 1 | Batch: 250/472 | Loss: 0.8982 | Acc: 63.89%
+Epoch: 1 | Batch: 300/472 | Loss: 0.8684 | Acc: 65.20%
+Epoch: 1 | Batch: 350/472 | Loss: 0.8458 | Acc: 66.25%
+Epoch: 1 | Batch: 400/472 | Loss: 0.8193 | Acc: 67.47%
+Epoch: 1 | Batch: 450/472 | Loss: 0.7943 | Acc: 68.59%
+Epoch: 1 | Batch: 472/472 | Loss: 0.7860 | Acc: 68.98%
+训练 Epoch: 1 | Loss: 0.7860 | Acc: 68.98% | Time: 53.08s
+
+验证 Epoch: 1 | Loss: 0.6845 | Acc: 72.80%
+
+
+验证集分类报告 (Epoch 1):
+                   precision    recall  f1-score   support
+
+   civil_airliner     0.8626    0.8540    0.8583       500
+       helicopter     0.6146    0.7400    0.6715       500
+military_aircraft     0.8005    0.6580    0.7223       500
+              uav     0.6707    0.6600    0.6653       500
+
+         accuracy                         0.7280      2000
+        macro avg     0.7371    0.7280    0.7294      2000
+     weighted avg     0.7371    0.7280    0.7294      2000
+
+
+测试 Epoch: 1 | Loss: 0.6565 | Acc: 74.47%
+
+
+测试集分类报告 (Epoch 1):
+                   precision    recall  f1-score   support
+
+   civil_airliner     0.8828    0.8828    0.8828       495
+       helicopter     0.6198    0.7807    0.6910       497
+military_aircraft     0.8355    0.6313    0.7192       499
+              uav     0.6951    0.6854    0.6902       499
+
+         accuracy                         0.7447      1990
+        macro avg     0.7583    0.7450    0.7458      1990
+     weighted avg     0.7582    0.7447    0.7456      1990
+
+验证集准确率提升: 0.00% -> 72.80%
+Epoch: 2 | Batch: 50/472 | Loss: 0.6225 | Acc: 76.19%
+Epoch: 2 | Batch: 100/472 | Loss: 0.5957 | Acc: 77.56%
+Epoch: 2 | Batch: 150/472 | Loss: 0.5890 | Acc: 77.56%
+Epoch: 2 | Batch: 200/472 | Loss: 0.5792 | Acc: 78.16%
+Epoch: 2 | Batch: 250/472 | Loss: 0.5739 | Acc: 78.33%
+Epoch: 2 | Batch: 300/472 | Loss: 0.5677 | Acc: 78.67%
+Epoch: 2 | Batch: 350/472 | Loss: 0.5643 | Acc: 78.79%
+Epoch: 2 | Batch: 400/472 | Loss: 0.5577 | Acc: 79.05%
+Epoch: 2 | Batch: 450/472 | Loss: 0.5500 | Acc: 79.35%
+Epoch: 2 | Batch: 472/472 | Loss: 0.5492 | Acc: 79.36%
+训练 Epoch: 2 | Loss: 0.5492 | Acc: 79.36% | Time: 65.93s
+
+验证 Epoch: 2 | Loss: 0.4898 | Acc: 81.20%
+
+
+验证集分类报告 (Epoch 2):
+                   precision    recall  f1-score   support
+
+   civil_airliner     0.8759    0.9460    0.9096       500
+       helicopter     0.7662    0.8060    0.7856       500
+military_aircraft     0.8272    0.6700    0.7403       500
+              uav     0.7807    0.8260    0.8027       500
+
+         accuracy                         0.8120      2000
+        macro avg     0.8125    0.8120    0.8096      2000
+     weighted avg     0.8125    0.8120    0.8096      2000
+
+
+测试 Epoch: 2 | Loss: 0.4948 | Acc: 81.76%
+
+
+测试集分类报告 (Epoch 2):
+                   precision    recall  f1-score   support
+
+   civil_airliner     0.8725    0.9677    0.9176       495
+       helicopter     0.7645    0.7968    0.7803       497
+military_aircraft     0.8670    0.6794    0.7618       499
+              uav     0.7763    0.8277    0.8012       499
+
+         accuracy                         0.8176      1990
+        macro avg     0.8201    0.8179    0.8152      1990
+     weighted avg     0.8200    0.8176    0.8150      1990
+
+验证集准确率提升: 72.80% -> 81.20%
+Epoch: 3 | Batch: 50/472 | Loss: 0.4764 | Acc: 81.44%
+Epoch: 3 | Batch: 100/472 | Loss: 0.4870 | Acc: 82.06%
+Epoch: 3 | Batch: 150/472 | Loss: 0.4891 | Acc: 81.85%
+Epoch: 3 | Batch: 200/472 | Loss: 0.4823 | Acc: 82.03%
+Epoch: 3 | Batch: 250/472 | Loss: 0.4797 | Acc: 82.09%
+Epoch: 3 | Batch: 300/472 | Loss: 0.4761 | Acc: 82.23%
+Epoch: 3 | Batch: 350/472 | Loss: 0.4726 | Acc: 82.41%
+Epoch: 3 | Batch: 400/472 | Loss: 0.4696 | Acc: 82.59%
+Epoch: 3 | Batch: 450/472 | Loss: 0.4677 | Acc: 82.72%
+Epoch: 3 | Batch: 472/472 | Loss: 0.4641 | Acc: 82.82%
+训练 Epoch: 3 | Loss: 0.4641 | Acc: 82.82% | Time: 65.53s
+
+验证 Epoch: 3 | Loss: 0.4498 | Acc: 83.40%
+
+
+验证集分类报告 (Epoch 3):
+                   precision    recall  f1-score   support
+
+   civil_airliner     0.9219    0.9440    0.9328       500
+       helicopter     0.7496    0.8740    0.8070       500
+military_aircraft     0.9184    0.7200    0.8072       500
+              uav     0.7778    0.7980    0.7878       500
+
+         accuracy                         0.8340      2000
+        macro avg     0.8419    0.8340    0.8337      2000
+     weighted avg     0.8419    0.8340    0.8337      2000
+
+
+测试 Epoch: 3 | Loss: 0.4301 | Acc: 84.07%
+
+
+测试集分类报告 (Epoch 3):
+                   precision    recall  f1-score   support
+
+   civil_airliner     0.9264    0.9657    0.9456       495
+       helicopter     0.7329    0.8833    0.8011       497
+military_aircraft     0.9392    0.7435    0.8300       499
+              uav     0.8021    0.7715    0.7865       499
+
+         accuracy                         0.8407      1990
+        macro avg     0.8501    0.8410    0.8408      1990
+     weighted avg     0.8501    0.8407    0.8406      1990
+
+验证集准确率提升: 81.20% -> 83.40%
+Epoch: 4 | Batch: 50/472 | Loss: 0.3802 | Acc: 86.38%
+Epoch: 4 | Batch: 100/472 | Loss: 0.3944 | Acc: 85.53%
+Epoch: 4 | Batch: 150/472 | Loss: 0.3900 | Acc: 85.83%
+Epoch: 4 | Batch: 200/472 | Loss: 0.4054 | Acc: 85.48%
+Epoch: 4 | Batch: 250/472 | Loss: 0.4085 | Acc: 85.26%
+Epoch: 4 | Batch: 300/472 | Loss: 0.4017 | Acc: 85.64%
+Epoch: 4 | Batch: 350/472 | Loss: 0.4071 | Acc: 85.29%
+Epoch: 4 | Batch: 400/472 | Loss: 0.4013 | Acc: 85.51%
+Epoch: 4 | Batch: 450/472 | Loss: 0.4026 | Acc: 85.42%
+Epoch: 4 | Batch: 472/472 | Loss: 0.4028 | Acc: 85.45%
+训练 Epoch: 4 | Loss: 0.4028 | Acc: 85.45% | Time: 55.96s
+
+验证 Epoch: 4 | Loss: 0.3600 | Acc: 86.35%
+
+
+验证集分类报告 (Epoch 4):
+                   precision    recall  f1-score   support
+
+   civil_airliner     0.8935    0.9560    0.9237       500
+       helicopter     0.8851    0.7700    0.8235       500
+military_aircraft     0.8457    0.8660    0.8557       500
+              uav     0.8320    0.8620    0.8468       500
+
+         accuracy                         0.8635      2000
+        macro avg     0.8641    0.8635    0.8624      2000
+     weighted avg     0.8641    0.8635    0.8624      2000
+
+
+测试 Epoch: 4 | Loss: 0.3343 | Acc: 88.79%
+
+
+测试集分类报告 (Epoch 4):
+                   precision    recall  f1-score   support
+
+   civil_airliner     0.9013    0.9778    0.9380       495
+       helicopter     0.9043    0.7988    0.8483       497
+military_aircraft     0.8849    0.8938    0.8893       499
+              uav     0.8627    0.8818    0.8722       499
+
+         accuracy                         0.8879      1990
+        macro avg     0.8883    0.8880    0.8869      1990
+     weighted avg     0.8883    0.8879    0.8869      1990
+
+验证集准确率提升: 83.40% -> 86.35%
+Epoch: 5 | Batch: 50/472 | Loss: 0.3570 | Acc: 87.44%
+Epoch: 5 | Batch: 100/472 | Loss: 0.3793 | Acc: 86.62%
+Epoch: 5 | Batch: 150/472 | Loss: 0.3690 | Acc: 86.79%
+Epoch: 5 | Batch: 200/472 | Loss: 0.3750 | Acc: 86.69%
+Epoch: 5 | Batch: 250/472 | Loss: 0.3727 | Acc: 86.75%
+Epoch: 5 | Batch: 300/472 | Loss: 0.3643 | Acc: 87.07%
+Epoch: 5 | Batch: 350/472 | Loss: 0.3626 | Acc: 87.23%
+Epoch: 5 | Batch: 400/472 | Loss: 0.3600 | Acc: 87.30%
+Epoch: 5 | Batch: 450/472 | Loss: 0.3622 | Acc: 87.24%
+Epoch: 5 | Batch: 472/472 | Loss: 0.3631 | Acc: 87.23%
+训练 Epoch: 5 | Loss: 0.3631 | Acc: 87.23% | Time: 57.16s
+
+验证 Epoch: 5 | Loss: 0.3194 | Acc: 88.45%
+
+
+验证集分类报告 (Epoch 5):
+                   precision    recall  f1-score   support
+
+   civil_airliner     0.9336    0.9280    0.9308       500
+       helicopter     0.9036    0.8440    0.8728       500
+military_aircraft     0.7953    0.9480    0.8650       500
+              uav     0.9295    0.8180    0.8702       500
+
+         accuracy                         0.8845      2000
+        macro avg     0.8905    0.8845    0.8847      2000
+     weighted avg     0.8905    0.8845    0.8847      2000
+
+
+测试 Epoch: 5 | Loss: 0.3088 | Acc: 88.94%
+
+
+测试集分类报告 (Epoch 5):
+                   precision    recall  f1-score   support
+
+   civil_airliner     0.9043    0.9354    0.9196       495
+       helicopter     0.8966    0.8551    0.8754       497
+military_aircraft     0.8298    0.9479    0.8849       499
+              uav     0.9424    0.8196    0.8767       499
+
+         accuracy                         0.8894      1990
+        macro avg     0.8933    0.8895    0.8892      1990
+     weighted avg     0.8933    0.8894    0.8891      1990
+
+验证集准确率提升: 86.35% -> 88.45%
+Epoch: 6 | Batch: 50/472 | Loss: 0.3162 | Acc: 88.81%
+Epoch: 6 | Batch: 100/472 | Loss: 0.3208 | Acc: 88.59%
+Epoch: 6 | Batch: 150/472 | Loss: 0.3288 | Acc: 88.29%
+Epoch: 6 | Batch: 200/472 | Loss: 0.3295 | Acc: 88.23%
+Epoch: 6 | Batch: 250/472 | Loss: 0.3284 | Acc: 88.22%
+Epoch: 6 | Batch: 300/472 | Loss: 0.3334 | Acc: 88.09%
+Epoch: 6 | Batch: 350/472 | Loss: 0.3312 | Acc: 88.21%
+Epoch: 6 | Batch: 400/472 | Loss: 0.3303 | Acc: 88.39%
+Epoch: 6 | Batch: 450/472 | Loss: 0.3297 | Acc: 88.25%
+Epoch: 6 | Batch: 472/472 | Loss: 0.3303 | Acc: 88.18%
+训练 Epoch: 6 | Loss: 0.3303 | Acc: 88.18% | Time: 58.49s
+
+验证 Epoch: 6 | Loss: 0.3565 | Acc: 85.65%
+
+
+验证集分类报告 (Epoch 6):
+                   precision    recall  f1-score   support
+
+   civil_airliner     0.9825    0.9000    0.9395       500
+       helicopter     0.7628    0.9260    0.8365       500
+military_aircraft     0.8084    0.9280    0.8641       500
+              uav     0.9307    0.6720    0.7805       500
+
+         accuracy                         0.8565      2000
+        macro avg     0.8711    0.8565    0.8551      2000
+     weighted avg     0.8711    0.8565    0.8551      2000
+
+
+测试 Epoch: 6 | Loss: 0.3336 | Acc: 87.54%
+
+
+测试集分类报告 (Epoch 6):
+                   precision    recall  f1-score   support
+
+   civil_airliner     0.9823    0.8970    0.9377       495
+       helicopter     0.7623    0.9356    0.8401       497
+military_aircraft     0.8626    0.9439    0.9014       499
+              uav     0.9476    0.7255    0.8218       499
+
+         accuracy                         0.8754      1990
+        macro avg     0.8887    0.8755    0.8753      1990
+     weighted avg     0.8887    0.8754    0.8752      1990
+
+验证集准确率未提升，耐心计数: 1/10
+Epoch: 7 | Batch: 50/472 | Loss: 0.2838 | Acc: 89.44%
+Epoch: 7 | Batch: 100/472 | Loss: 0.3007 | Acc: 89.00%
+Epoch: 7 | Batch: 150/472 | Loss: 0.3095 | Acc: 88.90%
+Epoch: 7 | Batch: 200/472 | Loss: 0.3070 | Acc: 89.12%
+Epoch: 7 | Batch: 250/472 | Loss: 0.3020 | Acc: 89.51%
+Epoch: 7 | Batch: 300/472 | Loss: 0.3041 | Acc: 89.43%
+Epoch: 7 | Batch: 350/472 | Loss: 0.3017 | Acc: 89.43%
+Epoch: 7 | Batch: 400/472 | Loss: 0.3036 | Acc: 89.38%
+Epoch: 7 | Batch: 450/472 | Loss: 0.3014 | Acc: 89.44%
+Epoch: 7 | Batch: 472/472 | Loss: 0.3017 | Acc: 89.40%
+训练 Epoch: 7 | Loss: 0.3017 | Acc: 89.40% | Time: 54.07s
+
+验证 Epoch: 7 | Loss: 0.2959 | Acc: 89.15%
+
+
+验证集分类报告 (Epoch 7):
+                   precision    recall  f1-score   support
+
+   civil_airliner     0.9040    0.9600    0.9311       500
+       helicopter     0.8577    0.9040    0.8802       500
+military_aircraft     0.8703    0.8860    0.8781       500
+              uav     0.9423    0.8160    0.8746       500
+
+         accuracy                         0.8915      2000
+        macro avg     0.8936    0.8915    0.8910      2000
+     weighted avg     0.8936    0.8915    0.8910      2000
+
+
+测试 Epoch: 7 | Loss: 0.2739 | Acc: 90.20%
+
+
+测试集分类报告 (Epoch 7):
+                   precision    recall  f1-score   support
+
+   civil_airliner     0.8972    0.9879    0.9404       495
+       helicopter     0.8519    0.8913    0.8712       497
+military_aircraft     0.9289    0.8898    0.9089       499
+              uav     0.9374    0.8397    0.8858       499
+
+         accuracy                         0.9020      1990
+        macro avg     0.9039    0.9022    0.9016      1990
+     weighted avg     0.9039    0.9020    0.9015      1990
+
+验证集准确率提升: 88.45% -> 89.15%
+Epoch: 8 | Batch: 50/472 | Loss: 0.2756 | Acc: 90.50%
+Epoch: 8 | Batch: 100/472 | Loss: 0.2788 | Acc: 90.50%
+Epoch: 8 | Batch: 150/472 | Loss: 0.2860 | Acc: 90.42%
+Epoch: 8 | Batch: 200/472 | Loss: 0.2798 | Acc: 90.59%
+Epoch: 8 | Batch: 250/472 | Loss: 0.2784 | Acc: 90.41%
+Epoch: 8 | Batch: 300/472 | Loss: 0.2790 | Acc: 90.30%
+Epoch: 8 | Batch: 350/472 | Loss: 0.2716 | Acc: 90.51%
+Epoch: 8 | Batch: 400/472 | Loss: 0.2776 | Acc: 90.24%
+Epoch: 8 | Batch: 450/472 | Loss: 0.2789 | Acc: 90.25%
+Epoch: 8 | Batch: 472/472 | Loss: 0.2766 | Acc: 90.33%
+训练 Epoch: 8 | Loss: 0.2766 | Acc: 90.33% | Time: 53.36s
+
+验证 Epoch: 8 | Loss: 0.2747 | Acc: 89.40%
+
+
+验证集分类报告 (Epoch 8):
+                   precision    recall  f1-score   support
+
+   civil_airliner     0.9337    0.9580    0.9457       500
+       helicopter     0.9434    0.8000    0.8658       500
+military_aircraft     0.9332    0.8660    0.8983       500
+              uav     0.7947    0.9520    0.8662       500
+
+         accuracy                         0.8940      2000
+        macro avg     0.9012    0.8940    0.8940      2000
+     weighted avg     0.9012    0.8940    0.8940      2000
+
+
+测试 Epoch: 8 | Loss: 0.2515 | Acc: 90.25%
+
+
+测试集分类报告 (Epoch 8):
+                   precision    recall  f1-score   support
+
+   civil_airliner     0.9359    0.9737    0.9545       495
+       helicopter     0.9390    0.8048    0.8667       497
+military_aircraft     0.9388    0.8918    0.9147       499
+              uav     0.8157    0.9399    0.8734       499
+
+         accuracy                         0.9025      1990
+        macro avg     0.9073    0.9026    0.9023      1990
+     weighted avg     0.9073    0.9025    0.9022      1990
+
+验证集准确率提升: 89.15% -> 89.40%
+Epoch: 9 | Batch: 50/472 | Loss: 0.2470 | Acc: 91.44%
+Epoch: 9 | Batch: 100/472 | Loss: 0.2528 | Acc: 91.03%
+Epoch: 9 | Batch: 150/472 | Loss: 0.2566 | Acc: 90.88%
+Epoch: 9 | Batch: 200/472 | Loss: 0.2535 | Acc: 90.95%
+Epoch: 9 | Batch: 250/472 | Loss: 0.2605 | Acc: 90.79%
+Epoch: 9 | Batch: 300/472 | Loss: 0.2608 | Acc: 90.79%
+Epoch: 9 | Batch: 350/472 | Loss: 0.2616 | Acc: 90.70%
+Epoch: 9 | Batch: 400/472 | Loss: 0.2596 | Acc: 90.72%
+Epoch: 9 | Batch: 450/472 | Loss: 0.2580 | Acc: 90.78%
+Epoch: 9 | Batch: 472/472 | Loss: 0.2579 | Acc: 90.80%
+训练 Epoch: 9 | Loss: 0.2579 | Acc: 90.80% | Time: 53.45s
+
+验证 Epoch: 9 | Loss: 0.3283 | Acc: 88.95%
+
+
+验证集分类报告 (Epoch 9):
+                   precision    recall  f1-score   support
+
+   civil_airliner     0.9848    0.9080    0.9448       500
+       helicopter     0.7659    0.9620    0.8528       500
+military_aircraft     0.9187    0.9260    0.9223       500
+              uav     0.9361    0.7620    0.8401       500
+
+         accuracy                         0.8895      2000
+        macro avg     0.9014    0.8895    0.8900      2000
+     weighted avg     0.9014    0.8895    0.8900      2000
+
+
+测试 Epoch: 9 | Loss: 0.2959 | Acc: 89.90%
+
+
+测试集分类报告 (Epoch 9):
+                   precision    recall  f1-score   support
+
+   civil_airliner     0.9767    0.9333    0.9545       495
+       helicopter     0.7627    0.9698    0.8539       497
+military_aircraft     0.9543    0.9198    0.9367       499
+              uav     0.9554    0.7735    0.8549       499
+
+         accuracy                         0.8990      1990
+        macro avg     0.9123    0.8991    0.9000      1990
+     weighted avg     0.9123    0.8990    0.9000      1990
+
+验证集准确率未提升，耐心计数: 1/10
+Epoch: 10 | Batch: 50/472 | Loss: 0.2213 | Acc: 92.31%
+Epoch: 10 | Batch: 100/472 | Loss: 0.2355 | Acc: 91.94%
+Epoch: 10 | Batch: 150/472 | Loss: 0.2354 | Acc: 91.83%
+Epoch: 10 | Batch: 200/472 | Loss: 0.2280 | Acc: 92.05%
+Epoch: 10 | Batch: 250/472 | Loss: 0.2360 | Acc: 91.76%
+Epoch: 10 | Batch: 300/472 | Loss: 0.2399 | Acc: 91.54%
+Epoch: 10 | Batch: 350/472 | Loss: 0.2395 | Acc: 91.60%
+Epoch: 10 | Batch: 400/472 | Loss: 0.2397 | Acc: 91.56%
+Epoch: 10 | Batch: 450/472 | Loss: 0.2381 | Acc: 91.55%
+Epoch: 10 | Batch: 472/472 | Loss: 0.2372 | Acc: 91.57%
+训练 Epoch: 10 | Loss: 0.2372 | Acc: 91.57% | Time: 53.23s
+
+验证 Epoch: 10 | Loss: 0.2910 | Acc: 89.60%
+
+
+验证集分类报告 (Epoch 10):
+                   precision    recall  f1-score   support
+
+   civil_airliner     0.9765    0.9160    0.9453       500
+       helicopter     0.8487    0.9200    0.8829       500
+military_aircraft     0.8279    0.9720    0.8942       500
+              uav     0.9652    0.7760    0.8603       500
+
+         accuracy                         0.8960      2000
+        macro avg     0.9046    0.8960    0.8957      2000
+     weighted avg     0.9046    0.8960    0.8957      2000
+
+
+测试 Epoch: 10 | Loss: 0.2637 | Acc: 91.06%
+
+
+测试集分类报告 (Epoch 10):
+                   precision    recall  f1-score   support
+
+   civil_airliner     0.9789    0.9394    0.9588       495
+       helicopter     0.8401    0.9517    0.8925       497
+military_aircraft     0.8811    0.9800    0.9279       499
+              uav     0.9698    0.7715    0.8594       499
+
+         accuracy                         0.9106      1990
+        macro avg     0.9175    0.9107    0.9096      1990
+     weighted avg     0.9174    0.9106    0.9095      1990
+
+验证集准确率提升: 89.40% -> 89.60%
+Epoch: 11 | Batch: 50/472 | Loss: 0.2064 | Acc: 92.94%
+Epoch: 11 | Batch: 100/472 | Loss: 0.2218 | Acc: 92.44%
+Epoch: 11 | Batch: 150/472 | Loss: 0.2302 | Acc: 92.19%
+Epoch: 11 | Batch: 200/472 | Loss: 0.2293 | Acc: 92.14%
+Epoch: 11 | Batch: 250/472 | Loss: 0.2282 | Acc: 92.04%
+Epoch: 11 | Batch: 300/472 | Loss: 0.2218 | Acc: 92.23%
+Epoch: 11 | Batch: 350/472 | Loss: 0.2261 | Acc: 92.21%
+Epoch: 11 | Batch: 400/472 | Loss: 0.2232 | Acc: 92.31%
+Epoch: 11 | Batch: 450/472 | Loss: 0.2250 | Acc: 92.31%
+Epoch: 11 | Batch: 472/472 | Loss: 0.2255 | Acc: 92.28%
+训练 Epoch: 11 | Loss: 0.2255 | Acc: 92.28% | Time: 63.32s
+
+验证 Epoch: 11 | Loss: 0.2081 | Acc: 92.35%
+
+
+验证集分类报告 (Epoch 11):
+                   precision    recall  f1-score   support
+
+   civil_airliner     0.9636    0.9520    0.9577       500
+       helicopter     0.8874    0.9460    0.9158       500
+military_aircraft     0.9361    0.9080    0.9218       500
+              uav     0.9098    0.8880    0.8988       500
+
+         accuracy                         0.9235      2000
+        macro avg     0.9242    0.9235    0.9235      2000
+     weighted avg     0.9242    0.9235    0.9235      2000
+
+
+测试 Epoch: 11 | Loss: 0.1959 | Acc: 93.32%
+
+
+测试集分类报告 (Epoch 11):
+                   precision    recall  f1-score   support
+
+   civil_airliner     0.9540    0.9636    0.9588       495
+       helicopter     0.8920    0.9477    0.9190       497
+military_aircraft     0.9584    0.9238    0.9408       499
+              uav     0.9314    0.8978    0.9143       499
+
+         accuracy                         0.9332      1990
+        macro avg     0.9340    0.9332    0.9332      1990
+     weighted avg     0.9340    0.9332    0.9332      1990
+
+验证集准确率提升: 89.60% -> 92.35%
+Epoch: 12 | Batch: 50/472 | Loss: 0.2191 | Acc: 92.56%
+Epoch: 12 | Batch: 100/472 | Loss: 0.1981 | Acc: 93.34%
+Epoch: 12 | Batch: 150/472 | Loss: 0.2002 | Acc: 93.08%
+Epoch: 12 | Batch: 200/472 | Loss: 0.1994 | Acc: 93.05%
+Epoch: 12 | Batch: 250/472 | Loss: 0.2035 | Acc: 92.97%
+Epoch: 12 | Batch: 300/472 | Loss: 0.2061 | Acc: 92.89%
+Epoch: 12 | Batch: 350/472 | Loss: 0.2072 | Acc: 92.87%
+Epoch: 12 | Batch: 400/472 | Loss: 0.2105 | Acc: 92.70%
+Epoch: 12 | Batch: 450/472 | Loss: 0.2108 | Acc: 92.72%
+Epoch: 12 | Batch: 472/472 | Loss: 0.2088 | Acc: 92.83%
+训练 Epoch: 12 | Loss: 0.2088 | Acc: 92.83% | Time: 64.41s
+
+验证 Epoch: 12 | Loss: 0.2151 | Acc: 92.75%
+
+
+验证集分类报告 (Epoch 12):
+                   precision    recall  f1-score   support
+
+   civil_airliner     0.9373    0.9560    0.9465       500
+       helicopter     0.9528    0.8880    0.9193       500
+military_aircraft     0.9094    0.9440    0.9264       500
+              uav     0.9129    0.9220    0.9174       500
+
+         accuracy                         0.9275      2000
+        macro avg     0.9281    0.9275    0.9274      2000
+     weighted avg     0.9281    0.9275    0.9274      2000
+
+
+测试 Epoch: 12 | Loss: 0.1846 | Acc: 94.02%
+
+
+测试集分类报告 (Epoch 12):
+                   precision    recall  f1-score   support
+
+   civil_airliner     0.9487    0.9717    0.9601       495
+       helicopter     0.9310    0.9235    0.9273       497
+military_aircraft     0.9448    0.9599    0.9523       499
+              uav     0.9358    0.9058    0.9206       499
+
+         accuracy                         0.9402      1990
+        macro avg     0.9401    0.9402    0.9401      1990
+     weighted avg     0.9401    0.9402    0.9400      1990
+
+验证集准确率提升: 92.35% -> 92.75%
+Epoch: 13 | Batch: 50/472 | Loss: 0.1963 | Acc: 92.94%
+Epoch: 13 | Batch: 100/472 | Loss: 0.1955 | Acc: 93.03%
+Epoch: 13 | Batch: 150/472 | Loss: 0.1999 | Acc: 92.96%
+Epoch: 13 | Batch: 200/472 | Loss: 0.1998 | Acc: 93.03%
+Epoch: 13 | Batch: 250/472 | Loss: 0.1976 | Acc: 93.15%
+Epoch: 13 | Batch: 300/472 | Loss: 0.1947 | Acc: 93.32%
+Epoch: 13 | Batch: 350/472 | Loss: 0.1939 | Acc: 93.36%
+Epoch: 13 | Batch: 400/472 | Loss: 0.1904 | Acc: 93.48%
+Epoch: 13 | Batch: 450/472 | Loss: 0.1915 | Acc: 93.36%
+Epoch: 13 | Batch: 472/472 | Loss: 0.1893 | Acc: 93.45%
+训练 Epoch: 13 | Loss: 0.1893 | Acc: 93.45% | Time: 54.13s
+
+验证 Epoch: 13 | Loss: 0.1800 | Acc: 93.30%
+
+
+验证集分类报告 (Epoch 13):
+                   precision    recall  f1-score   support
+
+   civil_airliner     0.9581    0.9600    0.9590       500
+       helicopter     0.9411    0.9260    0.9335       500
+military_aircraft     0.8855    0.9740    0.9276       500
+              uav     0.9540    0.8720    0.9112       500
+
+         accuracy                         0.9330      2000
+        macro avg     0.9347    0.9330    0.9328      2000
+     weighted avg     0.9347    0.9330    0.9328      2000
+
+
+测试 Epoch: 13 | Loss: 0.1892 | Acc: 93.57%
+
+
+测试集分类报告 (Epoch 13):
+                   precision    recall  f1-score   support
+
+   civil_airliner     0.9415    0.9758    0.9583       495
+       helicopter     0.9114    0.9316    0.9214       497
+military_aircraft     0.9357    0.9619    0.9486       499
+              uav     0.9561    0.8737    0.9131       499
+
+         accuracy                         0.9357      1990
+        macro avg     0.9362    0.9358    0.9354      1990
+     weighted avg     0.9362    0.9357    0.9353      1990
+
+验证集准确率提升: 92.75% -> 93.30%
+Epoch: 14 | Batch: 50/472 | Loss: 0.1563 | Acc: 94.31%
+Epoch: 14 | Batch: 100/472 | Loss: 0.1827 | Acc: 93.41%
+Epoch: 14 | Batch: 150/472 | Loss: 0.1811 | Acc: 93.52%
+Epoch: 14 | Batch: 200/472 | Loss: 0.1829 | Acc: 93.47%
+Epoch: 14 | Batch: 250/472 | Loss: 0.1835 | Acc: 93.41%
+Epoch: 14 | Batch: 300/472 | Loss: 0.1864 | Acc: 93.27%
+Epoch: 14 | Batch: 350/472 | Loss: 0.1879 | Acc: 93.23%
+Epoch: 14 | Batch: 400/472 | Loss: 0.1871 | Acc: 93.27%
+Epoch: 14 | Batch: 450/472 | Loss: 0.1842 | Acc: 93.39%
+Epoch: 14 | Batch: 472/472 | Loss: 0.1843 | Acc: 93.38%
+训练 Epoch: 14 | Loss: 0.1843 | Acc: 93.38% | Time: 53.16s
+
+验证 Epoch: 14 | Loss: 0.1591 | Acc: 94.35%
+
+
+验证集分类报告 (Epoch 14):
+                   precision    recall  f1-score   support
+
+   civil_airliner     0.9676    0.9560    0.9618       500
+       helicopter     0.9626    0.9260    0.9439       500
+military_aircraft     0.8972    0.9600    0.9275       500
+              uav     0.9510    0.9320    0.9414       500
+
+         accuracy                         0.9435      2000
+        macro avg     0.9446    0.9435    0.9437      2000
+     weighted avg     0.9446    0.9435    0.9437      2000
+
+
+测试 Epoch: 14 | Loss: 0.1575 | Acc: 95.08%
+
+
+测试集分类报告 (Epoch 14):
+                   precision    recall  f1-score   support
+
+   civil_airliner     0.9720    0.9818    0.9769       495
+       helicopter     0.9431    0.9336    0.9383       497
+military_aircraft     0.9341    0.9659    0.9498       499
+              uav     0.9544    0.9218    0.9378       499
+
+         accuracy                         0.9508      1990
+        macro avg     0.9509    0.9508    0.9507      1990
+     weighted avg     0.9509    0.9508    0.9507      1990
+
+验证集准确率提升: 93.30% -> 94.35%
+Epoch: 15 | Batch: 50/472 | Loss: 0.1671 | Acc: 94.12%
+Epoch: 15 | Batch: 100/472 | Loss: 0.1564 | Acc: 94.53%
+Epoch: 15 | Batch: 150/472 | Loss: 0.1566 | Acc: 94.67%
+Epoch: 15 | Batch: 200/472 | Loss: 0.1562 | Acc: 94.73%
+Epoch: 15 | Batch: 250/472 | Loss: 0.1632 | Acc: 94.50%
+Epoch: 15 | Batch: 300/472 | Loss: 0.1668 | Acc: 94.43%
+Epoch: 15 | Batch: 350/472 | Loss: 0.1668 | Acc: 94.38%
+Epoch: 15 | Batch: 400/472 | Loss: 0.1687 | Acc: 94.31%
+Epoch: 15 | Batch: 450/472 | Loss: 0.1701 | Acc: 94.29%
+Epoch: 15 | Batch: 472/472 | Loss: 0.1698 | Acc: 94.27%
+训练 Epoch: 15 | Loss: 0.1698 | Acc: 94.27% | Time: 53.50s
+
+验证 Epoch: 15 | Loss: 0.2217 | Acc: 92.50%
+
+
+验证集分类报告 (Epoch 15):
+                   precision    recall  f1-score   support
+
+   civil_airliner     0.9875    0.9460    0.9663       500
+       helicopter     0.9863    0.8620    0.9200       500
+military_aircraft     0.9518    0.9080    0.9294       500
+              uav     0.8105    0.9840    0.8889       500
+
+         accuracy                         0.9250      2000
+        macro avg     0.9340    0.9250    0.9261      2000
+     weighted avg     0.9340    0.9250    0.9261      2000
+
+
+测试 Epoch: 15 | Loss: 0.1961 | Acc: 93.32%
+
+
+测试集分类报告 (Epoch 15):
+                   precision    recall  f1-score   support
+
+   civil_airliner     0.9796    0.9677    0.9736       495
+       helicopter     0.9732    0.8773    0.9228       497
+military_aircraft     0.9702    0.9138    0.9412       499
+              uav     0.8336    0.9739    0.8983       499
+
+         accuracy                         0.9332      1990
+        macro avg     0.9391    0.9332    0.9340      1990
+     weighted avg     0.9390    0.9332    0.9339      1990
+
+验证集准确率未提升，耐心计数: 1/10
+Epoch: 16 | Batch: 50/472 | Loss: 0.1777 | Acc: 93.50%
+Epoch: 16 | Batch: 100/472 | Loss: 0.1654 | Acc: 93.88%
+Epoch: 16 | Batch: 150/472 | Loss: 0.1666 | Acc: 93.88%
+Epoch: 16 | Batch: 200/472 | Loss: 0.1606 | Acc: 94.23%
+Epoch: 16 | Batch: 250/472 | Loss: 0.1568 | Acc: 94.54%
+Epoch: 16 | Batch: 300/472 | Loss: 0.1547 | Acc: 94.67%
+Epoch: 16 | Batch: 350/472 | Loss: 0.1550 | Acc: 94.63%
+Epoch: 16 | Batch: 400/472 | Loss: 0.1553 | Acc: 94.61%
+Epoch: 16 | Batch: 450/472 | Loss: 0.1558 | Acc: 94.66%
+Epoch: 16 | Batch: 472/472 | Loss: 0.1559 | Acc: 94.63%
+训练 Epoch: 16 | Loss: 0.1559 | Acc: 94.63% | Time: 53.30s
+
+验证 Epoch: 16 | Loss: 0.1870 | Acc: 93.25%
+
+
+验证集分类报告 (Epoch 16):
+                   precision    recall  f1-score   support
+
+   civil_airliner     0.9851    0.9260    0.9546       500
+       helicopter     0.9642    0.9160    0.9395       500
+military_aircraft     0.8850    0.9540    0.9182       500
+              uav     0.9050    0.9340    0.9193       500
+
+         accuracy                         0.9325      2000
+        macro avg     0.9348    0.9325    0.9329      2000
+     weighted avg     0.9348    0.9325    0.9329      2000
+
+
+测试 Epoch: 16 | Loss: 0.1621 | Acc: 94.62%
+
+
+测试集分类报告 (Epoch 16):
+                   precision    recall  f1-score   support
+
+   civil_airliner     0.9851    0.9354    0.9596       495
+       helicopter     0.9511    0.9396    0.9453       497
+military_aircraft     0.9235    0.9679    0.9452       499
+              uav     0.9289    0.9419    0.9353       499
+
+         accuracy                         0.9462      1990
+        macro avg     0.9471    0.9462    0.9464      1990
+     weighted avg     0.9471    0.9462    0.9463      1990
+
+验证集准确率未提升，耐心计数: 2/10
+Epoch: 17 | Batch: 50/472 | Loss: 0.1551 | Acc: 95.38%
+Epoch: 17 | Batch: 100/472 | Loss: 0.1557 | Acc: 95.03%
+Epoch: 17 | Batch: 150/472 | Loss: 0.1534 | Acc: 94.98%
+Epoch: 17 | Batch: 200/472 | Loss: 0.1507 | Acc: 95.05%
+Epoch: 17 | Batch: 250/472 | Loss: 0.1575 | Acc: 94.74%
+Epoch: 17 | Batch: 300/472 | Loss: 0.1574 | Acc: 94.73%
+Epoch: 17 | Batch: 350/472 | Loss: 0.1579 | Acc: 94.75%
+Epoch: 17 | Batch: 400/472 | Loss: 0.1567 | Acc: 94.77%
+Epoch: 17 | Batch: 450/472 | Loss: 0.1542 | Acc: 94.77%
+Epoch: 17 | Batch: 472/472 | Loss: 0.1560 | Acc: 94.75%
+训练 Epoch: 17 | Loss: 0.1560 | Acc: 94.75% | Time: 53.32s
+
+验证 Epoch: 17 | Loss: 0.2003 | Acc: 93.20%
+
+
+验证集分类报告 (Epoch 17):
+                   precision    recall  f1-score   support
+
+   civil_airliner     0.9693    0.9460    0.9575       500
+       helicopter     0.8860    0.9640    0.9234       500
+military_aircraft     0.9308    0.9420    0.9364       500
+              uav     0.9481    0.8760    0.9106       500
+
+         accuracy                         0.9320      2000
+        macro avg     0.9335    0.9320    0.9320      2000
+     weighted avg     0.9335    0.9320    0.9320      2000
+
+
+测试 Epoch: 17 | Loss: 0.2057 | Acc: 93.92%
+
+
+测试集分类报告 (Epoch 17):
+                   precision    recall  f1-score   support
+
+   civil_airliner     0.9736    0.9697    0.9717       495
+       helicopter     0.8707    0.9759    0.9203       497
+military_aircraft     0.9636    0.9539    0.9587       499
+              uav     0.9596    0.8577    0.9058       499
+
+         accuracy                         0.9392      1990
+        macro avg     0.9419    0.9393    0.9391      1990
+     weighted avg     0.9419    0.9392    0.9391      1990
+
+验证集准确率未提升，耐心计数: 3/10
+Epoch: 18 | Batch: 50/472 | Loss: 0.1358 | Acc: 95.62%
+Epoch: 18 | Batch: 100/472 | Loss: 0.1392 | Acc: 95.00%
+Epoch: 18 | Batch: 150/472 | Loss: 0.1303 | Acc: 95.27%
+Epoch: 18 | Batch: 200/472 | Loss: 0.1353 | Acc: 95.20%
+Epoch: 18 | Batch: 250/472 | Loss: 0.1349 | Acc: 95.30%
+Epoch: 18 | Batch: 300/472 | Loss: 0.1328 | Acc: 95.36%
+Epoch: 18 | Batch: 350/472 | Loss: 0.1355 | Acc: 95.32%
+Epoch: 18 | Batch: 400/472 | Loss: 0.1382 | Acc: 95.21%
+Epoch: 18 | Batch: 450/472 | Loss: 0.1385 | Acc: 95.26%
+Epoch: 18 | Batch: 472/472 | Loss: 0.1385 | Acc: 95.21%
+训练 Epoch: 18 | Loss: 0.1385 | Acc: 95.21% | Time: 58.80s
+
+验证 Epoch: 18 | Loss: 0.1827 | Acc: 93.55%
+
+
+验证集分类报告 (Epoch 18):
+                   precision    recall  f1-score   support
+
+   civil_airliner     0.9794    0.9520    0.9655       500
+       helicopter     0.9089    0.9580    0.9328       500
+military_aircraft     0.9514    0.9000    0.9250       500
+              uav     0.9066    0.9320    0.9191       500
+
+         accuracy                         0.9355      2000
+        macro avg     0.9366    0.9355    0.9356      2000
+     weighted avg     0.9366    0.9355    0.9356      2000
+
+
+测试 Epoch: 18 | Loss: 0.1561 | Acc: 94.77%
+
+
+测试集分类报告 (Epoch 18):
+                   precision    recall  f1-score   support
+
+   civil_airliner     0.9739    0.9798    0.9768       495
+       helicopter     0.8989    0.9839    0.9395       497
+military_aircraft     0.9848    0.9078    0.9447       499
+              uav     0.9406    0.9198    0.9301       499
+
+         accuracy                         0.9477      1990
+        macro avg     0.9495    0.9478    0.9478      1990
+     weighted avg     0.9495    0.9477    0.9477      1990
+
+验证集准确率未提升，耐心计数: 4/10
+Epoch: 19 | Batch: 50/472 | Loss: 0.1490 | Acc: 95.12%
+Epoch: 19 | Batch: 100/472 | Loss: 0.1332 | Acc: 95.59%
+Epoch: 19 | Batch: 150/472 | Loss: 0.1310 | Acc: 95.65%
+Epoch: 19 | Batch: 200/472 | Loss: 0.1366 | Acc: 95.56%
+Epoch: 19 | Batch: 250/472 | Loss: 0.1404 | Acc: 95.41%
+Epoch: 19 | Batch: 300/472 | Loss: 0.1389 | Acc: 95.46%
+Epoch: 19 | Batch: 350/472 | Loss: 0.1361 | Acc: 95.47%
+Epoch: 19 | Batch: 400/472 | Loss: 0.1381 | Acc: 95.34%
+Epoch: 19 | Batch: 450/472 | Loss: 0.1381 | Acc: 95.29%
+Epoch: 19 | Batch: 472/472 | Loss: 0.1369 | Acc: 95.35%
+训练 Epoch: 19 | Loss: 0.1369 | Acc: 95.35% | Time: 58.91s
+
+验证 Epoch: 19 | Loss: 0.1684 | Acc: 94.65%
+
+
+验证集分类报告 (Epoch 19):
+                   precision    recall  f1-score   support
+
+   civil_airliner     0.9813    0.9440    0.9623       500
+       helicopter     0.9007    0.9620    0.9304       500
+military_aircraft     0.9335    0.9820    0.9571       500
+              uav     0.9782    0.8980    0.9364       500
+
+         accuracy                         0.9465      2000
+        macro avg     0.9484    0.9465    0.9465      2000
+     weighted avg     0.9484    0.9465    0.9465      2000
+
+
+测试 Epoch: 19 | Loss: 0.1722 | Acc: 95.18%
+
+
+测试集分类报告 (Epoch 19):
+                   precision    recall  f1-score   support
+
+   civil_airliner     0.9818    0.9798    0.9808       495
+       helicopter     0.9011    0.9718    0.9351       497
+military_aircraft     0.9553    0.9840    0.9694       499
+              uav     0.9753    0.8717    0.9206       499
+
+         accuracy                         0.9518      1990
+        macro avg     0.9534    0.9518    0.9515      1990
+     weighted avg     0.9534    0.9518    0.9514      1990
+
+验证集准确率提升: 94.35% -> 94.65%
+Epoch: 20 | Batch: 50/472 | Loss: 0.1280 | Acc: 95.69%
+Epoch: 20 | Batch: 100/472 | Loss: 0.1129 | Acc: 96.12%
+Epoch: 20 | Batch: 150/472 | Loss: 0.1231 | Acc: 95.94%
+Epoch: 20 | Batch: 200/472 | Loss: 0.1208 | Acc: 95.91%
+Epoch: 20 | Batch: 250/472 | Loss: 0.1228 | Acc: 95.71%
+Epoch: 20 | Batch: 300/472 | Loss: 0.1263 | Acc: 95.62%
+Epoch: 20 | Batch: 350/472 | Loss: 0.1273 | Acc: 95.65%
+Epoch: 20 | Batch: 400/472 | Loss: 0.1266 | Acc: 95.64%
+Epoch: 20 | Batch: 450/472 | Loss: 0.1278 | Acc: 95.60%
+Epoch: 20 | Batch: 472/472 | Loss: 0.1292 | Acc: 95.52%
+训练 Epoch: 20 | Loss: 0.1292 | Acc: 95.52% | Time: 56.35s
+
+验证 Epoch: 20 | Loss: 0.1526 | Acc: 94.45%
+
+
+验证集分类报告 (Epoch 20):
+                   precision    recall  f1-score   support
+
+   civil_airliner     0.9854    0.9480    0.9664       500
+       helicopter     0.9163    0.9640    0.9396       500
+military_aircraft     0.9565    0.9240    0.9400       500
+              uav     0.9235    0.9420    0.9327       500
+
+         accuracy                         0.9445      2000
+        macro avg     0.9455    0.9445    0.9446      2000
+     weighted avg     0.9455    0.9445    0.9446      2000
+
+
+测试 Epoch: 20 | Loss: 0.1647 | Acc: 94.37%
+
+
+测试集分类报告 (Epoch 20):
+                   precision    recall  f1-score   support
+
+   civil_airliner     0.9937    0.9495    0.9711       495
+       helicopter     0.8832    0.9738    0.9263       497
+military_aircraft     0.9672    0.9459    0.9564       499
+              uav     0.9397    0.9058    0.9224       499
+
+         accuracy                         0.9437      1990
+        macro avg     0.9459    0.9438    0.9441      1990
+     weighted avg     0.9459    0.9437    0.9440      1990
+
+验证集准确率未提升，耐心计数: 1/10
+Epoch: 21 | Batch: 50/472 | Loss: 0.1247 | Acc: 95.06%
+Epoch: 21 | Batch: 100/472 | Loss: 0.1286 | Acc: 95.44%
+Epoch: 21 | Batch: 150/472 | Loss: 0.1363 | Acc: 95.19%
+Epoch: 21 | Batch: 200/472 | Loss: 0.1328 | Acc: 95.42%
+Epoch: 21 | Batch: 250/472 | Loss: 0.1377 | Acc: 95.29%
+Epoch: 21 | Batch: 300/472 | Loss: 0.1334 | Acc: 95.40%
+Epoch: 21 | Batch: 350/472 | Loss: 0.1289 | Acc: 95.58%
+Epoch: 21 | Batch: 400/472 | Loss: 0.1275 | Acc: 95.61%
+Epoch: 21 | Batch: 450/472 | Loss: 0.1258 | Acc: 95.67%
+Epoch: 21 | Batch: 472/472 | Loss: 0.1259 | Acc: 95.68%
+训练 Epoch: 21 | Loss: 0.1259 | Acc: 95.68% | Time: 53.27s
+
+验证 Epoch: 21 | Loss: 0.1328 | Acc: 95.40%
+
+
+验证集分类报告 (Epoch 21):
+                   precision    recall  f1-score   support
+
+   civil_airliner     0.9625    0.9740    0.9682       500
+       helicopter     0.9677    0.9580    0.9628       500
+military_aircraft     0.9457    0.9400    0.9428       500
+              uav     0.9402    0.9440    0.9421       500
+
+         accuracy                         0.9540      2000
+        macro avg     0.9540    0.9540    0.9540      2000
+     weighted avg     0.9540    0.9540    0.9540      2000
+
+
+测试 Epoch: 21 | Loss: 0.1305 | Acc: 95.88%
+
+
+测试集分类报告 (Epoch 21):
+                   precision    recall  f1-score   support
+
+   civil_airliner     0.9532    0.9879    0.9702       495
+       helicopter     0.9413    0.9678    0.9544       497
+military_aircraft     0.9753    0.9479    0.9614       499
+              uav     0.9667    0.9319    0.9490       499
+
+         accuracy                         0.9588      1990
+        macro avg     0.9591    0.9589    0.9587      1990
+     weighted avg     0.9592    0.9588    0.9587      1990
+
+验证集准确率提升: 94.65% -> 95.40%
+Epoch: 22 | Batch: 50/472 | Loss: 0.1122 | Acc: 96.44%
+Epoch: 22 | Batch: 100/472 | Loss: 0.1051 | Acc: 96.59%
+Epoch: 22 | Batch: 150/472 | Loss: 0.1093 | Acc: 96.42%
+Epoch: 22 | Batch: 200/472 | Loss: 0.1066 | Acc: 96.39%
+Epoch: 22 | Batch: 250/472 | Loss: 0.1130 | Acc: 96.14%
+Epoch: 22 | Batch: 300/472 | Loss: 0.1154 | Acc: 96.00%
+Epoch: 22 | Batch: 350/472 | Loss: 0.1175 | Acc: 95.96%
+Epoch: 22 | Batch: 400/472 | Loss: 0.1186 | Acc: 95.95%
+Epoch: 22 | Batch: 450/472 | Loss: 0.1213 | Acc: 95.83%
+Epoch: 22 | Batch: 472/472 | Loss: 0.1204 | Acc: 95.87%
+训练 Epoch: 22 | Loss: 0.1204 | Acc: 95.87% | Time: 54.85s
+
+验证 Epoch: 22 | Loss: 0.1241 | Acc: 95.85%
+
+
+验证集分类报告 (Epoch 22):
+                   precision    recall  f1-score   support
+
+   civil_airliner     0.9757    0.9620    0.9688       500
+       helicopter     0.9874    0.9400    0.9631       500
+military_aircraft     0.9380    0.9680    0.9528       500
+              uav     0.9359    0.9640    0.9498       500
+
+         accuracy                         0.9585      2000
+        macro avg     0.9592    0.9585    0.9586      2000
+     weighted avg     0.9592    0.9585    0.9586      2000
+
+
+测试 Epoch: 22 | Loss: 0.1167 | Acc: 96.13%
+
+
+测试集分类报告 (Epoch 22):
+                   precision    recall  f1-score   support
+
+   civil_airliner     0.9677    0.9677    0.9677       495
+       helicopter     0.9695    0.9577    0.9636       497
+military_aircraft     0.9510    0.9719    0.9613       499
+              uav     0.9575    0.9479    0.9527       499
+
+         accuracy                         0.9613      1990
+        macro avg     0.9614    0.9613    0.9613      1990
+     weighted avg     0.9614    0.9613    0.9613      1990
+
+验证集准确率提升: 95.40% -> 95.85%
+Epoch: 23 | Batch: 50/472 | Loss: 0.1102 | Acc: 95.94%
+Epoch: 23 | Batch: 100/472 | Loss: 0.1061 | Acc: 96.28%
+Epoch: 23 | Batch: 150/472 | Loss: 0.1075 | Acc: 96.38%
+Epoch: 23 | Batch: 200/472 | Loss: 0.1084 | Acc: 96.34%
+Epoch: 23 | Batch: 250/472 | Loss: 0.1075 | Acc: 96.33%
+Epoch: 23 | Batch: 300/472 | Loss: 0.1119 | Acc: 96.29%
+Epoch: 23 | Batch: 350/472 | Loss: 0.1109 | Acc: 96.29%
+Epoch: 23 | Batch: 400/472 | Loss: 0.1092 | Acc: 96.36%
+Epoch: 23 | Batch: 450/472 | Loss: 0.1081 | Acc: 96.38%
+Epoch: 23 | Batch: 472/472 | Loss: 0.1069 | Acc: 96.39%
+训练 Epoch: 23 | Loss: 0.1069 | Acc: 96.39% | Time: 53.07s
+
+验证 Epoch: 23 | Loss: 0.2062 | Acc: 94.00%
+
+
+验证集分类报告 (Epoch 23):
+                   precision    recall  f1-score   support
+
+   civil_airliner     0.9677    0.9580    0.9628       500
+       helicopter     0.9708    0.9300    0.9499       500
+military_aircraft     0.9639    0.9080    0.9351       500
+              uav     0.8685    0.9640    0.9137       500
+
+         accuracy                         0.9400      2000
+        macro avg     0.9427    0.9400    0.9404      2000
+     weighted avg     0.9427    0.9400    0.9404      2000
+
+
+测试 Epoch: 23 | Loss: 0.1901 | Acc: 94.17%
+
+
+测试集分类报告 (Epoch 23):
+                   precision    recall  f1-score   support
+
+   civil_airliner     0.9566    0.9798    0.9681       495
+       helicopter     0.9571    0.9416    0.9493       497
+military_aircraft     0.9759    0.8918    0.9319       499
+              uav     0.8848    0.9539    0.9180       499
+
+         accuracy                         0.9417      1990
+        macro avg     0.9436    0.9418    0.9418      1990
+     weighted avg     0.9435    0.9417    0.9418      1990
+
+验证集准确率未提升，耐心计数: 1/10
+Epoch: 24 | Batch: 50/472 | Loss: 0.1214 | Acc: 96.38%
+Epoch: 24 | Batch: 100/472 | Loss: 0.1114 | Acc: 96.34%
+Epoch: 24 | Batch: 150/472 | Loss: 0.1151 | Acc: 96.21%
+Epoch: 24 | Batch: 200/472 | Loss: 0.1146 | Acc: 96.11%
+Epoch: 24 | Batch: 250/472 | Loss: 0.1129 | Acc: 96.01%
+Epoch: 24 | Batch: 300/472 | Loss: 0.1121 | Acc: 96.16%
+Epoch: 24 | Batch: 350/472 | Loss: 0.1110 | Acc: 96.16%
+Epoch: 24 | Batch: 400/472 | Loss: 0.1111 | Acc: 96.16%
+Epoch: 24 | Batch: 450/472 | Loss: 0.1117 | Acc: 96.15%
+Epoch: 24 | Batch: 472/472 | Loss: 0.1125 | Acc: 96.12%
+训练 Epoch: 24 | Loss: 0.1125 | Acc: 96.12% | Time: 53.39s
+
+验证 Epoch: 24 | Loss: 0.1648 | Acc: 94.85%
+
+
+验证集分类报告 (Epoch 24):
+                   precision    recall  f1-score   support
+
+   civil_airliner     0.9676    0.9560    0.9618       500
+       helicopter     0.9271    0.9660    0.9461       500
+military_aircraft     0.9551    0.9360    0.9455       500
+              uav     0.9455    0.9360    0.9407       500
+
+         accuracy                         0.9485      2000
+        macro avg     0.9488    0.9485    0.9485      2000
+     weighted avg     0.9488    0.9485    0.9485      2000
+
+
+测试 Epoch: 24 | Loss: 0.1578 | Acc: 95.28%
+
+
+测试集分类报告 (Epoch 24):
+                   precision    recall  f1-score   support
+
+   civil_airliner     0.9757    0.9737    0.9747       495
+       helicopter     0.9035    0.9799    0.9402       497
+military_aircraft     0.9715    0.9559    0.9636       499
+              uav     0.9657    0.9018    0.9326       499
+
+         accuracy                         0.9528      1990
+        macro avg     0.9541    0.9528    0.9528      1990
+     weighted avg     0.9541    0.9528    0.9528      1990
+
+验证集准确率未提升，耐心计数: 2/10
+Epoch: 25 | Batch: 50/472 | Loss: 0.1082 | Acc: 96.19%
+Epoch: 25 | Batch: 100/472 | Loss: 0.0976 | Acc: 96.59%
+Epoch: 25 | Batch: 150/472 | Loss: 0.0944 | Acc: 96.77%
+Epoch: 25 | Batch: 200/472 | Loss: 0.1056 | Acc: 96.44%
+Epoch: 25 | Batch: 250/472 | Loss: 0.1031 | Acc: 96.62%
+Epoch: 25 | Batch: 300/472 | Loss: 0.1012 | Acc: 96.60%
+Epoch: 25 | Batch: 350/472 | Loss: 0.1022 | Acc: 96.60%
+Epoch: 25 | Batch: 400/472 | Loss: 0.1013 | Acc: 96.62%
+Epoch: 25 | Batch: 450/472 | Loss: 0.0991 | Acc: 96.66%
+Epoch: 25 | Batch: 472/472 | Loss: 0.1001 | Acc: 96.62%
+训练 Epoch: 25 | Loss: 0.1001 | Acc: 96.62% | Time: 53.42s
+
+验证 Epoch: 25 | Loss: 0.1585 | Acc: 94.85%
+
+
+验证集分类报告 (Epoch 25):
+                   precision    recall  f1-score   support
+
+   civil_airliner     0.9321    0.9880    0.9592       500
+       helicopter     0.9827    0.9080    0.9439       500
+military_aircraft     0.9647    0.9300    0.9470       500
+              uav     0.9202    0.9680    0.9435       500
+
+         accuracy                         0.9485      2000
+        macro avg     0.9499    0.9485    0.9484      2000
+     weighted avg     0.9499    0.9485    0.9484      2000
+
+
+测试 Epoch: 25 | Loss: 0.1466 | Acc: 95.63%
+
+
+测试集分类报告 (Epoch 25):
+                   precision    recall  f1-score   support
+
+   civil_airliner     0.9267    0.9960    0.9601       495
+       helicopter     0.9848    0.9115    0.9467       497
+military_aircraft     0.9832    0.9399    0.9611       499
+              uav     0.9367    0.9780    0.9569       499
+
+         accuracy                         0.9563      1990
+        macro avg     0.9578    0.9563    0.9562      1990
+     weighted avg     0.9579    0.9563    0.9562      1990
+
+验证集准确率未提升，耐心计数: 3/10
+Epoch: 26 | Batch: 50/472 | Loss: 0.1021 | Acc: 96.69%
+Epoch: 26 | Batch: 100/472 | Loss: 0.1082 | Acc: 96.59%
+Epoch: 26 | Batch: 150/472 | Loss: 0.1004 | Acc: 96.92%
+Epoch: 26 | Batch: 200/472 | Loss: 0.0984 | Acc: 97.06%
+Epoch: 26 | Batch: 250/472 | Loss: 0.1005 | Acc: 96.88%
+Epoch: 26 | Batch: 300/472 | Loss: 0.1011 | Acc: 96.78%
+Epoch: 26 | Batch: 350/472 | Loss: 0.1024 | Acc: 96.65%
+Epoch: 26 | Batch: 400/472 | Loss: 0.1010 | Acc: 96.65%
+Epoch: 26 | Batch: 450/472 | Loss: 0.1006 | Acc: 96.69%
+Epoch: 26 | Batch: 472/472 | Loss: 0.0994 | Acc: 96.72%
+训练 Epoch: 26 | Loss: 0.0994 | Acc: 96.72% | Time: 53.30s
+
+验证 Epoch: 26 | Loss: 0.1358 | Acc: 96.20%
+
+
+验证集分类报告 (Epoch 26):
+                   precision    recall  f1-score   support
+
+   civil_airliner     0.9737    0.9620    0.9678       500
+       helicopter     0.9454    0.9700    0.9576       500
+military_aircraft     0.9774    0.9500    0.9635       500
+              uav     0.9527    0.9660    0.9593       500
+
+         accuracy                         0.9620      2000
+        macro avg     0.9623    0.9620    0.9620      2000
+     weighted avg     0.9623    0.9620    0.9620      2000
+
+
+测试 Epoch: 26 | Loss: 0.1487 | Acc: 96.23%
+
+
+测试集分类报告 (Epoch 26):
+                   precision    recall  f1-score   support
+
+   civil_airliner     0.9758    0.9778    0.9768       495
+       helicopter     0.9417    0.9759    0.9585       497
+military_aircraft     0.9796    0.9639    0.9717       499
+              uav     0.9529    0.9319    0.9422       499
+
+         accuracy                         0.9623      1990
+        macro avg     0.9625    0.9624    0.9623      1990
+     weighted avg     0.9625    0.9623    0.9623      1990
+
+验证集准确率提升: 95.85% -> 96.20%
+Epoch: 27 | Batch: 50/472 | Loss: 0.0755 | Acc: 97.75%
+Epoch: 27 | Batch: 100/472 | Loss: 0.0967 | Acc: 96.78%
+Epoch: 27 | Batch: 150/472 | Loss: 0.1033 | Acc: 96.50%
+Epoch: 27 | Batch: 200/472 | Loss: 0.0972 | Acc: 96.67%
+Epoch: 27 | Batch: 250/472 | Loss: 0.0940 | Acc: 96.81%
+Epoch: 27 | Batch: 300/472 | Loss: 0.0942 | Acc: 96.75%
+Epoch: 27 | Batch: 350/472 | Loss: 0.0941 | Acc: 96.77%
+Epoch: 27 | Batch: 400/472 | Loss: 0.0948 | Acc: 96.75%
+Epoch: 27 | Batch: 450/472 | Loss: 0.0942 | Acc: 96.81%
+Epoch: 27 | Batch: 472/472 | Loss: 0.0954 | Acc: 96.78%
+训练 Epoch: 27 | Loss: 0.0954 | Acc: 96.78% | Time: 53.13s
+
+验证 Epoch: 27 | Loss: 0.1314 | Acc: 95.50%
+
+
+验证集分类报告 (Epoch 27):
+                   precision    recall  f1-score   support
+
+   civil_airliner     0.9583    0.9660    0.9622       500
+       helicopter     0.9562    0.9600    0.9581       500
+military_aircraft     0.9429    0.9580    0.9504       500
+              uav     0.9630    0.9360    0.9493       500
+
+         accuracy                         0.9550      2000
+        macro avg     0.9551    0.9550    0.9550      2000
+     weighted avg     0.9551    0.9550    0.9550      2000
+
+
+测试 Epoch: 27 | Loss: 0.1252 | Acc: 95.83%
+
+
+测试集分类报告 (Epoch 27):
+                   precision    recall  f1-score   support
+
+   civil_airliner     0.9665    0.9919    0.9791       495
+       helicopter     0.9414    0.9698    0.9554       497
+military_aircraft     0.9562    0.9619    0.9590       499
+              uav     0.9701    0.9098    0.9390       499
+
+         accuracy                         0.9583      1990
+        macro avg     0.9586    0.9584    0.9581      1990
+     weighted avg     0.9586    0.9583    0.9581      1990
+
+验证集准确率未提升，耐心计数: 1/10
+Epoch: 28 | Batch: 50/472 | Loss: 0.0788 | Acc: 97.56%
+Epoch: 28 | Batch: 100/472 | Loss: 0.0655 | Acc: 97.97%
+Epoch: 28 | Batch: 150/472 | Loss: 0.0698 | Acc: 97.69%
+Epoch: 28 | Batch: 200/472 | Loss: 0.0757 | Acc: 97.47%
+Epoch: 28 | Batch: 250/472 | Loss: 0.0822 | Acc: 97.25%
+Epoch: 28 | Batch: 300/472 | Loss: 0.0883 | Acc: 97.05%
+Epoch: 28 | Batch: 350/472 | Loss: 0.0919 | Acc: 96.93%
+Epoch: 28 | Batch: 400/472 | Loss: 0.0915 | Acc: 96.99%
+Epoch: 28 | Batch: 450/472 | Loss: 0.0916 | Acc: 96.97%
+Epoch: 28 | Batch: 472/472 | Loss: 0.0913 | Acc: 96.94%
+训练 Epoch: 28 | Loss: 0.0913 | Acc: 96.94% | Time: 53.30s
+
+验证 Epoch: 28 | Loss: 0.1492 | Acc: 95.70%
+
+
+验证集分类报告 (Epoch 28):
+                   precision    recall  f1-score   support
+
+   civil_airliner     0.9643    0.9720    0.9681       500
+       helicopter     0.9872    0.9260    0.9556       500
+military_aircraft     0.9470    0.9640    0.9554       500
+              uav     0.9324    0.9660    0.9489       500
+
+         accuracy                         0.9570      2000
+        macro avg     0.9577    0.9570    0.9570      2000
+     weighted avg     0.9577    0.9570    0.9570      2000
+
+
+测试 Epoch: 28 | Loss: 0.1176 | Acc: 96.58%
+
+
+测试集分类报告 (Epoch 28):
+                   precision    recall  f1-score   support
+
+   civil_airliner     0.9683    0.9859    0.9770       495
+       helicopter     0.9753    0.9537    0.9644       497
+military_aircraft     0.9678    0.9639    0.9659       499
+              uav     0.9523    0.9599    0.9561       499
+
+         accuracy                         0.9658      1990
+        macro avg     0.9659    0.9659    0.9658      1990
+     weighted avg     0.9659    0.9658    0.9658      1990
+
+验证集准确率未提升，耐心计数: 2/10
+Epoch: 29 | Batch: 50/472 | Loss: 0.0563 | Acc: 97.94%
+Epoch: 29 | Batch: 100/472 | Loss: 0.0738 | Acc: 97.44%
+Epoch: 29 | Batch: 150/472 | Loss: 0.0741 | Acc: 97.50%
+Epoch: 29 | Batch: 200/472 | Loss: 0.0783 | Acc: 97.33%
+Epoch: 29 | Batch: 250/472 | Loss: 0.0793 | Acc: 97.36%
+Epoch: 29 | Batch: 300/472 | Loss: 0.0814 | Acc: 97.29%
+Epoch: 29 | Batch: 350/472 | Loss: 0.0817 | Acc: 97.28%
+Epoch: 29 | Batch: 400/472 | Loss: 0.0820 | Acc: 97.25%
+Epoch: 29 | Batch: 450/472 | Loss: 0.0860 | Acc: 97.10%
+Epoch: 29 | Batch: 472/472 | Loss: 0.0851 | Acc: 97.15%
+训练 Epoch: 29 | Loss: 0.0851 | Acc: 97.15% | Time: 53.37s
+
+验证 Epoch: 29 | Loss: 0.1530 | Acc: 95.10%
+
+
+验证集分类报告 (Epoch 29):
+                   precision    recall  f1-score   support
+
+   civil_airliner     0.9796    0.9580    0.9687       500
+       helicopter     0.9912    0.9040    0.9456       500
+military_aircraft     0.9359    0.9640    0.9498       500
+              uav     0.9056    0.9780    0.9404       500
+
+         accuracy                         0.9510      2000
+        macro avg     0.9531    0.9510    0.9511      2000
+     weighted avg     0.9531    0.9510    0.9511      2000
+
+
+测试 Epoch: 29 | Loss: 0.1199 | Acc: 96.08%
+
+
+测试集分类报告 (Epoch 29):
+                   precision    recall  f1-score   support
+
+   civil_airliner     0.9778    0.9798    0.9788       495
+       helicopter     0.9871    0.9215    0.9532       497
+military_aircraft     0.9548    0.9739    0.9643       499
+              uav     0.9271    0.9679    0.9471       499
+
+         accuracy                         0.9608      1990
+        macro avg     0.9617    0.9608    0.9608      1990
+     weighted avg     0.9616    0.9608    0.9608      1990
+
+验证集准确率未提升，耐心计数: 3/10
+Epoch: 30 | Batch: 50/472 | Loss: 0.0640 | Acc: 97.50%
+Epoch: 30 | Batch: 100/472 | Loss: 0.0720 | Acc: 97.41%
+Epoch: 30 | Batch: 150/472 | Loss: 0.0716 | Acc: 97.52%
+Epoch: 30 | Batch: 200/472 | Loss: 0.0697 | Acc: 97.59%
+Epoch: 30 | Batch: 250/472 | Loss: 0.0732 | Acc: 97.54%
+Epoch: 30 | Batch: 300/472 | Loss: 0.0766 | Acc: 97.42%
+Epoch: 30 | Batch: 350/472 | Loss: 0.0801 | Acc: 97.26%
+Epoch: 30 | Batch: 400/472 | Loss: 0.0814 | Acc: 97.23%
+Epoch: 30 | Batch: 450/472 | Loss: 0.0806 | Acc: 97.27%
+Epoch: 30 | Batch: 472/472 | Loss: 0.0801 | Acc: 97.25%
+训练 Epoch: 30 | Loss: 0.0801 | Acc: 97.25% | Time: 54.78s
+
+验证 Epoch: 30 | Loss: 0.1365 | Acc: 96.30%
+
+
+验证集分类报告 (Epoch 30):
+                   precision    recall  f1-score   support
+
+   civil_airliner     0.9719    0.9700    0.9710       500
+       helicopter     0.9487    0.9620    0.9553       500
+military_aircraft     0.9425    0.9840    0.9628       500
+              uav     0.9915    0.9360    0.9630       500
+
+         accuracy                         0.9630      2000
+        macro avg     0.9637    0.9630    0.9630      2000
+     weighted avg     0.9637    0.9630    0.9630      2000
+
+
+测试 Epoch: 30 | Loss: 0.1203 | Acc: 96.83%
+
+
+测试集分类报告 (Epoch 30):
+                   precision    recall  f1-score   support
+
+   civil_airliner     0.9839    0.9879    0.9859       495
+       helicopter     0.9476    0.9819    0.9644       497
+military_aircraft     0.9574    0.9900    0.9734       499
+              uav     0.9870    0.9138    0.9490       499
+
+         accuracy                         0.9683      1990
+        macro avg     0.9690    0.9684    0.9682      1990
+     weighted avg     0.9690    0.9683    0.9681      1990
+
+验证集准确率提升: 96.20% -> 96.30%
+Epoch: 31 | Batch: 50/472 | Loss: 0.0919 | Acc: 97.00%
+Epoch: 31 | Batch: 100/472 | Loss: 0.0865 | Acc: 97.09%
+Epoch: 31 | Batch: 150/472 | Loss: 0.0851 | Acc: 97.17%
+Epoch: 31 | Batch: 200/472 | Loss: 0.0842 | Acc: 97.17%
+Epoch: 31 | Batch: 250/472 | Loss: 0.0831 | Acc: 97.16%
+Epoch: 31 | Batch: 300/472 | Loss: 0.0816 | Acc: 97.22%
+Epoch: 31 | Batch: 350/472 | Loss: 0.0825 | Acc: 97.19%
+Epoch: 31 | Batch: 400/472 | Loss: 0.0839 | Acc: 97.12%
+Epoch: 31 | Batch: 450/472 | Loss: 0.0843 | Acc: 97.09%
+Epoch: 31 | Batch: 472/472 | Loss: 0.0843 | Acc: 97.07%
+训练 Epoch: 31 | Loss: 0.0843 | Acc: 97.07% | Time: 55.17s
+
+验证 Epoch: 31 | Loss: 0.1242 | Acc: 95.85%
+
+
+验证集分类报告 (Epoch 31):
+                   precision    recall  f1-score   support
+
+   civil_airliner     0.9816    0.9620    0.9717       500
+       helicopter     0.9278    0.9760    0.9513       500
+military_aircraft     0.9513    0.9760    0.9635       500
+              uav     0.9766    0.9200    0.9475       500
+
+         accuracy                         0.9585      2000
+        macro avg     0.9593    0.9585    0.9585      2000
+     weighted avg     0.9593    0.9585    0.9585      2000
+
+
+测试 Epoch: 31 | Loss: 0.1490 | Acc: 95.93%
+
+
+测试集分类报告 (Epoch 31):
+                   precision    recall  f1-score   support
+
+   civil_airliner     0.9857    0.9758    0.9807       495
+       helicopter     0.9174    0.9839    0.9495       497
+military_aircraft     0.9604    0.9719    0.9661       499
+              uav     0.9784    0.9058    0.9407       499
+
+         accuracy                         0.9593      1990
+        macro avg     0.9605    0.9594    0.9593      1990
+     weighted avg     0.9605    0.9593    0.9592      1990
+
+验证集准确率未提升，耐心计数: 1/10
+Epoch: 32 | Batch: 50/472 | Loss: 0.0839 | Acc: 97.00%
+Epoch: 32 | Batch: 100/472 | Loss: 0.0745 | Acc: 97.38%
+Epoch: 32 | Batch: 150/472 | Loss: 0.0727 | Acc: 97.46%
+Epoch: 32 | Batch: 200/472 | Loss: 0.0667 | Acc: 97.62%
+Epoch: 32 | Batch: 250/472 | Loss: 0.0671 | Acc: 97.56%
+Epoch: 32 | Batch: 300/472 | Loss: 0.0700 | Acc: 97.49%
+Epoch: 32 | Batch: 350/472 | Loss: 0.0709 | Acc: 97.48%
+Epoch: 32 | Batch: 400/472 | Loss: 0.0728 | Acc: 97.41%
+Epoch: 32 | Batch: 450/472 | Loss: 0.0741 | Acc: 97.44%
+Epoch: 32 | Batch: 472/472 | Loss: 0.0737 | Acc: 97.44%
+训练 Epoch: 32 | Loss: 0.0737 | Acc: 97.44% | Time: 53.61s
+
+验证 Epoch: 32 | Loss: 0.1366 | Acc: 96.00%
+
+
+验证集分类报告 (Epoch 32):
+                   precision    recall  f1-score   support
+
+   civil_airliner     0.9738    0.9660    0.9699       500
+       helicopter     0.9774    0.9500    0.9635       500
+military_aircraft     0.9507    0.9640    0.9573       500
+              uav     0.9393    0.9600    0.9496       500
+
+         accuracy                         0.9600      2000
+        macro avg     0.9603    0.9600    0.9601      2000
+     weighted avg     0.9603    0.9600    0.9601      2000
+
+
+测试 Epoch: 32 | Loss: 0.1344 | Acc: 96.73%
+
+
+测试集分类报告 (Epoch 32):
+                   precision    recall  f1-score   support
+
+   civil_airliner     0.9799    0.9838    0.9819       495
+       helicopter     0.9601    0.9678    0.9639       497
+military_aircraft     0.9622    0.9679    0.9650       499
+              uav     0.9673    0.9499    0.9585       499
+
+         accuracy                         0.9673      1990
+        macro avg     0.9674    0.9674    0.9673      1990
+     weighted avg     0.9673    0.9673    0.9673      1990
+
+验证集准确率未提升，耐心计数: 2/10
+Epoch: 33 | Batch: 50/472 | Loss: 0.0836 | Acc: 97.31%
+Epoch: 33 | Batch: 100/472 | Loss: 0.0764 | Acc: 97.34%
+Epoch: 33 | Batch: 150/472 | Loss: 0.0705 | Acc: 97.60%
+Epoch: 33 | Batch: 200/472 | Loss: 0.0762 | Acc: 97.53%
+Epoch: 33 | Batch: 250/472 | Loss: 0.0789 | Acc: 97.40%
+Epoch: 33 | Batch: 300/472 | Loss: 0.0799 | Acc: 97.35%
+Epoch: 33 | Batch: 350/472 | Loss: 0.0773 | Acc: 97.44%
+Epoch: 33 | Batch: 400/472 | Loss: 0.0777 | Acc: 97.37%
+Epoch: 33 | Batch: 450/472 | Loss: 0.0774 | Acc: 97.37%
+Epoch: 33 | Batch: 472/472 | Loss: 0.0769 | Acc: 97.38%
+训练 Epoch: 33 | Loss: 0.0769 | Acc: 97.38% | Time: 53.15s
+
+验证 Epoch: 33 | Loss: 0.1304 | Acc: 96.10%
+
+
+验证集分类报告 (Epoch 33):
+                   precision    recall  f1-score   support
+
+   civil_airliner     0.9837    0.9660    0.9748       500
+       helicopter     0.9514    0.9780    0.9645       500
+military_aircraft     0.9709    0.9340    0.9521       500
+              uav     0.9397    0.9660    0.9527       500
+
+         accuracy                         0.9610      2000
+        macro avg     0.9614    0.9610    0.9610      2000
+     weighted avg     0.9614    0.9610    0.9610      2000
+
+
+测试 Epoch: 33 | Loss: 0.1158 | Acc: 96.38%
+
+
+测试集分类报告 (Epoch 33):
+                   precision    recall  f1-score   support
+
+   civil_airliner     0.9798    0.9818    0.9808       495
+       helicopter     0.9365    0.9799    0.9577       497
+military_aircraft     0.9893    0.9259    0.9565       499
+              uav     0.9527    0.9679    0.9602       499
+
+         accuracy                         0.9638      1990
+        macro avg     0.9646    0.9639    0.9638      1990
+     weighted avg     0.9646    0.9638    0.9638      1990
+
+验证集准确率未提升，耐心计数: 3/10
+Epoch: 34 | Batch: 50/472 | Loss: 0.0612 | Acc: 97.81%
+Epoch: 34 | Batch: 100/472 | Loss: 0.0615 | Acc: 97.91%
+Epoch: 34 | Batch: 150/472 | Loss: 0.0693 | Acc: 97.69%
+Epoch: 34 | Batch: 200/472 | Loss: 0.0696 | Acc: 97.67%
+Epoch: 34 | Batch: 250/472 | Loss: 0.0676 | Acc: 97.70%
+Epoch: 34 | Batch: 300/472 | Loss: 0.0688 | Acc: 97.71%
+Epoch: 34 | Batch: 350/472 | Loss: 0.0687 | Acc: 97.65%
+Epoch: 34 | Batch: 400/472 | Loss: 0.0717 | Acc: 97.52%
+Epoch: 34 | Batch: 450/472 | Loss: 0.0734 | Acc: 97.53%
+Epoch: 34 | Batch: 472/472 | Loss: 0.0732 | Acc: 97.51%
+训练 Epoch: 34 | Loss: 0.0732 | Acc: 97.51% | Time: 53.32s
+
+验证 Epoch: 34 | Loss: 0.1006 | Acc: 96.65%
+
+
+验证集分类报告 (Epoch 34):
+                   precision    recall  f1-score   support
+
+   civil_airliner     0.9761    0.9820    0.9791       500
+       helicopter     0.9680    0.9680    0.9680       500
+military_aircraft     0.9529    0.9720    0.9624       500
+              uav     0.9692    0.9440    0.9564       500
+
+         accuracy                         0.9665      2000
+        macro avg     0.9666    0.9665    0.9665      2000
+     weighted avg     0.9666    0.9665    0.9665      2000
+
+
+测试 Epoch: 34 | Loss: 0.1062 | Acc: 96.98%
+
+
+测试集分类报告 (Epoch 34):
+                   precision    recall  f1-score   support
+
+   civil_airliner     0.9702    0.9859    0.9780       495
+       helicopter     0.9530    0.9799    0.9663       497
+military_aircraft     0.9817    0.9659    0.9737       499
+              uav     0.9753    0.9479    0.9614       499
+
+         accuracy                         0.9698      1990
+        macro avg     0.9700    0.9699    0.9698      1990
+     weighted avg     0.9701    0.9698    0.9698      1990
+
+验证集准确率提升: 96.30% -> 96.65%
+Epoch: 35 | Batch: 50/472 | Loss: 0.0927 | Acc: 97.00%
+Epoch: 35 | Batch: 100/472 | Loss: 0.0824 | Acc: 97.19%
+Epoch: 35 | Batch: 150/472 | Loss: 0.0747 | Acc: 97.44%
+Epoch: 35 | Batch: 200/472 | Loss: 0.0778 | Acc: 97.42%
+Epoch: 35 | Batch: 250/472 | Loss: 0.0790 | Acc: 97.41%
+Epoch: 35 | Batch: 300/472 | Loss: 0.0776 | Acc: 97.48%
+Epoch: 35 | Batch: 350/472 | Loss: 0.0772 | Acc: 97.50%
+Epoch: 35 | Batch: 400/472 | Loss: 0.0765 | Acc: 97.50%
+Epoch: 35 | Batch: 450/472 | Loss: 0.0737 | Acc: 97.56%
+Epoch: 35 | Batch: 472/472 | Loss: 0.0731 | Acc: 97.60%
+训练 Epoch: 35 | Loss: 0.0731 | Acc: 97.60% | Time: 53.32s
+
+验证 Epoch: 35 | Loss: 0.1243 | Acc: 96.95%
+
+
+验证集分类报告 (Epoch 35):
+                   precision    recall  f1-score   support
+
+   civil_airliner     0.9779    0.9740    0.9760       500
+       helicopter     0.9701    0.9720    0.9710       500
+military_aircraft     0.9547    0.9700    0.9623       500
+              uav     0.9757    0.9620    0.9688       500
+
+         accuracy                         0.9695      2000
+        macro avg     0.9696    0.9695    0.9695      2000
+     weighted avg     0.9696    0.9695    0.9695      2000
+
+
+测试 Epoch: 35 | Loss: 0.1445 | Acc: 96.73%
+
+
+测试集分类报告 (Epoch 35):
+                   precision    recall  f1-score   support
+
+   civil_airliner     0.9723    0.9919    0.9820       495
+       helicopter     0.9487    0.9678    0.9582       497
+military_aircraft     0.9816    0.9639    0.9727       499
+              uav     0.9672    0.9459    0.9564       499
+
+         accuracy                         0.9673      1990
+        macro avg     0.9675    0.9674    0.9673      1990
+     weighted avg     0.9675    0.9673    0.9673      1990
+
+验证集准确率提升: 96.65% -> 96.95%
+Epoch: 36 | Batch: 50/472 | Loss: 0.0689 | Acc: 97.94%
+Epoch: 36 | Batch: 100/472 | Loss: 0.0665 | Acc: 97.97%
+Epoch: 36 | Batch: 150/472 | Loss: 0.0610 | Acc: 98.12%
+Epoch: 36 | Batch: 200/472 | Loss: 0.0687 | Acc: 97.91%
+Epoch: 36 | Batch: 250/472 | Loss: 0.0702 | Acc: 97.86%
+Epoch: 36 | Batch: 300/472 | Loss: 0.0705 | Acc: 97.75%
+Epoch: 36 | Batch: 350/472 | Loss: 0.0680 | Acc: 97.79%
+Epoch: 36 | Batch: 400/472 | Loss: 0.0698 | Acc: 97.77%
+Epoch: 36 | Batch: 450/472 | Loss: 0.0688 | Acc: 97.81%
+Epoch: 36 | Batch: 472/472 | Loss: 0.0686 | Acc: 97.79%
+训练 Epoch: 36 | Loss: 0.0686 | Acc: 97.79% | Time: 54.68s
+
+验证 Epoch: 36 | Loss: 0.1130 | Acc: 96.30%
+
+
+验证集分类报告 (Epoch 36):
+                   precision    recall  f1-score   support
+
+   civil_airliner     0.9777    0.9640    0.9708       500
+       helicopter     0.9609    0.9820    0.9713       500
+military_aircraft     0.9768    0.9280    0.9518       500
+              uav     0.9386    0.9780    0.9579       500
+
+         accuracy                         0.9630      2000
+        macro avg     0.9635    0.9630    0.9629      2000
+     weighted avg     0.9635    0.9630    0.9629      2000
+
+
+测试 Epoch: 36 | Loss: 0.1388 | Acc: 95.93%
+
+
+测试集分类报告 (Epoch 36):
+                   precision    recall  f1-score   support
+
+   civil_airliner     0.9759    0.9818    0.9789       495
+       helicopter     0.9365    0.9799    0.9577       497
+military_aircraft     0.9808    0.9218    0.9504       499
+              uav     0.9463    0.9539    0.9501       499
+
+         accuracy                         0.9593      1990
+        macro avg     0.9599    0.9594    0.9593      1990
+     weighted avg     0.9599    0.9593    0.9592      1990
+
+验证集准确率未提升，耐心计数: 1/10
+Epoch: 37 | Batch: 50/472 | Loss: 0.0620 | Acc: 97.75%
+Epoch: 37 | Batch: 100/472 | Loss: 0.0626 | Acc: 97.78%
+Epoch: 37 | Batch: 150/472 | Loss: 0.0602 | Acc: 97.85%
+Epoch: 37 | Batch: 200/472 | Loss: 0.0640 | Acc: 97.69%
+Epoch: 37 | Batch: 250/472 | Loss: 0.0639 | Acc: 97.76%
+Epoch: 37 | Batch: 300/472 | Loss: 0.0697 | Acc: 97.55%
+Epoch: 37 | Batch: 350/472 | Loss: 0.0676 | Acc: 97.62%
+Epoch: 37 | Batch: 400/472 | Loss: 0.0692 | Acc: 97.58%
+Epoch: 37 | Batch: 450/472 | Loss: 0.0685 | Acc: 97.55%
+Epoch: 37 | Batch: 472/472 | Loss: 0.0684 | Acc: 97.56%
+训练 Epoch: 37 | Loss: 0.0684 | Acc: 97.56% | Time: 53.40s
+
+验证 Epoch: 37 | Loss: 0.1015 | Acc: 96.90%
+
+
+验证集分类报告 (Epoch 37):
+                   precision    recall  f1-score   support
+
+   civil_airliner     0.9838    0.9720    0.9779       500
+       helicopter     0.9701    0.9720    0.9710       500
+military_aircraft     0.9661    0.9700    0.9681       500
+              uav     0.9563    0.9620    0.9591       500
+
+         accuracy                         0.9690      2000
+        macro avg     0.9691    0.9690    0.9690      2000
+     weighted avg     0.9691    0.9690    0.9690      2000
+
+
+测试 Epoch: 37 | Loss: 0.1049 | Acc: 97.29%
+
+
+测试集分类报告 (Epoch 37):
+                   precision    recall  f1-score   support
+
+   civil_airliner     0.9780    0.9879    0.9829       495
+       helicopter     0.9625    0.9819    0.9721       497
+military_aircraft     0.9797    0.9679    0.9738       499
+              uav     0.9714    0.9539    0.9626       499
+
+         accuracy                         0.9729      1990
+        macro avg     0.9729    0.9729    0.9729      1990
+     weighted avg     0.9729    0.9729    0.9728      1990
+
+验证集准确率未提升，耐心计数: 2/10
+Epoch: 38 | Batch: 50/472 | Loss: 0.0593 | Acc: 97.81%
+Epoch: 38 | Batch: 100/472 | Loss: 0.0550 | Acc: 98.00%
+Epoch: 38 | Batch: 150/472 | Loss: 0.0577 | Acc: 98.06%
+Epoch: 38 | Batch: 200/472 | Loss: 0.0624 | Acc: 97.83%
+Epoch: 38 | Batch: 250/472 | Loss: 0.0601 | Acc: 97.94%
+Epoch: 38 | Batch: 300/472 | Loss: 0.0599 | Acc: 97.98%
+Epoch: 38 | Batch: 350/472 | Loss: 0.0573 | Acc: 98.07%
+Epoch: 38 | Batch: 400/472 | Loss: 0.0582 | Acc: 98.01%
+Epoch: 38 | Batch: 450/472 | Loss: 0.0589 | Acc: 97.96%
+Epoch: 38 | Batch: 472/472 | Loss: 0.0594 | Acc: 97.95%
+训练 Epoch: 38 | Loss: 0.0594 | Acc: 97.95% | Time: 54.45s
+
+验证 Epoch: 38 | Loss: 0.1322 | Acc: 96.35%
+
+
+验证集分类报告 (Epoch 38):
+                   precision    recall  f1-score   support
+
+   civil_airliner     0.9856    0.9580    0.9716       500
+       helicopter     0.9529    0.9720    0.9624       500
+military_aircraft     0.9569    0.9780    0.9674       500
+              uav     0.9594    0.9460    0.9527       500
+
+         accuracy                         0.9635      2000
+        macro avg     0.9637    0.9635    0.9635      2000
+     weighted avg     0.9637    0.9635    0.9635      2000
+
+
+测试 Epoch: 38 | Loss: 0.1250 | Acc: 97.09%
+
+
+测试集分类报告 (Epoch 38):
+                   precision    recall  f1-score   support
+
+   civil_airliner     0.9938    0.9737    0.9837       495
+       helicopter     0.9441    0.9859    0.9646       497
+military_aircraft     0.9858    0.9719    0.9788       499
+              uav     0.9615    0.9519    0.9567       499
+
+         accuracy                         0.9709      1990
+        macro avg     0.9713    0.9709    0.9709      1990
+     weighted avg     0.9713    0.9709    0.9709      1990
+
+验证集准确率未提升，耐心计数: 3/10
+Epoch: 39 | Batch: 50/472 | Loss: 0.0728 | Acc: 97.56%
+Epoch: 39 | Batch: 100/472 | Loss: 0.0668 | Acc: 97.81%
+Epoch: 39 | Batch: 150/472 | Loss: 0.0692 | Acc: 97.81%
+Epoch: 39 | Batch: 200/472 | Loss: 0.0630 | Acc: 97.97%
+Epoch: 39 | Batch: 250/472 | Loss: 0.0607 | Acc: 98.01%
+Epoch: 39 | Batch: 300/472 | Loss: 0.0647 | Acc: 97.88%
+Epoch: 39 | Batch: 350/472 | Loss: 0.0639 | Acc: 97.88%
+Epoch: 39 | Batch: 400/472 | Loss: 0.0627 | Acc: 97.91%
+Epoch: 39 | Batch: 450/472 | Loss: 0.0620 | Acc: 97.92%
+Epoch: 39 | Batch: 472/472 | Loss: 0.0611 | Acc: 97.93%
+训练 Epoch: 39 | Loss: 0.0611 | Acc: 97.93% | Time: 53.81s
+
+验证 Epoch: 39 | Loss: 0.1304 | Acc: 96.60%
+
+
+验证集分类报告 (Epoch 39):
+                   precision    recall  f1-score   support
+
+   civil_airliner     0.9818    0.9700    0.9759       500
+       helicopter     0.9354    0.9840    0.9591       500
+military_aircraft     0.9644    0.9740    0.9692       500
+              uav     0.9853    0.9360    0.9600       500
+
+         accuracy                         0.9660      2000
+        macro avg     0.9667    0.9660    0.9660      2000
+     weighted avg     0.9667    0.9660    0.9660      2000
+
+
+测试 Epoch: 39 | Loss: 0.1583 | Acc: 96.08%
+
+
+测试集分类报告 (Epoch 39):
+                   precision    recall  f1-score   support
+
+   civil_airliner     0.9979    0.9737    0.9857       495
+       helicopter     0.9156    0.9819    0.9476       497
+military_aircraft     0.9602    0.9659    0.9630       499
+              uav     0.9746    0.9218    0.9475       499
+
+         accuracy                         0.9608      1990
+        macro avg     0.9621    0.9609    0.9609      1990
+     weighted avg     0.9620    0.9608    0.9609      1990
+
+验证集准确率未提升，耐心计数: 4/10
+Epoch: 40 | Batch: 50/472 | Loss: 0.0503 | Acc: 98.44%
+Epoch: 40 | Batch: 100/472 | Loss: 0.0630 | Acc: 98.12%
+Epoch: 40 | Batch: 150/472 | Loss: 0.0646 | Acc: 98.04%
+Epoch: 40 | Batch: 200/472 | Loss: 0.0619 | Acc: 98.00%
+Epoch: 40 | Batch: 250/472 | Loss: 0.0665 | Acc: 97.84%
+Epoch: 40 | Batch: 300/472 | Loss: 0.0650 | Acc: 97.86%
+Epoch: 40 | Batch: 350/472 | Loss: 0.0653 | Acc: 97.88%
+Epoch: 40 | Batch: 400/472 | Loss: 0.0652 | Acc: 97.87%
+Epoch: 40 | Batch: 450/472 | Loss: 0.0619 | Acc: 97.99%
+Epoch: 40 | Batch: 472/472 | Loss: 0.0603 | Acc: 98.03%
+训练 Epoch: 40 | Loss: 0.0603 | Acc: 98.03% | Time: 53.57s
+
+验证 Epoch: 40 | Loss: 0.1354 | Acc: 96.10%
+
+
+验证集分类报告 (Epoch 40):
+                   precision    recall  f1-score   support
+
+   civil_airliner     0.9587    0.9740    0.9663       500
+       helicopter     0.9340    0.9900    0.9612       500
+military_aircraft     0.9851    0.9240    0.9536       500
+              uav     0.9696    0.9560    0.9627       500
+
+         accuracy                         0.9610      2000
+        macro avg     0.9618    0.9610    0.9609      2000
+     weighted avg     0.9618    0.9610    0.9609      2000
+
+
+测试 Epoch: 40 | Loss: 0.1546 | Acc: 96.23%
+
+
+测试集分类报告 (Epoch 40):
+                   precision    recall  f1-score   support
+
+   civil_airliner     0.9683    0.9879    0.9780       495
+       helicopter     0.9245    0.9859    0.9542       497
+military_aircraft     0.9833    0.9459    0.9642       499
+              uav     0.9768    0.9299    0.9528       499
+
+         accuracy                         0.9623      1990
+        macro avg     0.9633    0.9624    0.9623      1990
+     weighted avg     0.9633    0.9623    0.9623      1990
+
+验证集准确率未提升，耐心计数: 5/10
+Epoch: 41 | Batch: 50/472 | Loss: 0.0417 | Acc: 98.62%
+Epoch: 41 | Batch: 100/472 | Loss: 0.0454 | Acc: 98.44%
+Epoch: 41 | Batch: 150/472 | Loss: 0.0548 | Acc: 98.23%
+Epoch: 41 | Batch: 200/472 | Loss: 0.0576 | Acc: 98.12%
+Epoch: 41 | Batch: 250/472 | Loss: 0.0615 | Acc: 98.06%
+Epoch: 41 | Batch: 300/472 | Loss: 0.0602 | Acc: 98.08%
+Epoch: 41 | Batch: 350/472 | Loss: 0.0585 | Acc: 98.19%
+Epoch: 41 | Batch: 400/472 | Loss: 0.0614 | Acc: 98.05%
+Epoch: 41 | Batch: 450/472 | Loss: 0.0629 | Acc: 98.02%
+Epoch: 41 | Batch: 472/472 | Loss: 0.0631 | Acc: 97.97%
+训练 Epoch: 41 | Loss: 0.0631 | Acc: 97.97% | Time: 53.30s
+
+验证 Epoch: 41 | Loss: 0.1074 | Acc: 96.80%
+
+
+验证集分类报告 (Epoch 41):
+                   precision    recall  f1-score   support
+
+   civil_airliner     0.9742    0.9820    0.9781       500
+       helicopter     0.9718    0.9640    0.9679       500
+military_aircraft     0.9462    0.9840    0.9647       500
+              uav     0.9812    0.9420    0.9612       500
+
+         accuracy                         0.9680      2000
+        macro avg     0.9683    0.9680    0.9680      2000
+     weighted avg     0.9683    0.9680    0.9680      2000
+
+
+测试 Epoch: 41 | Loss: 0.1093 | Acc: 97.29%
+
+
+测试集分类报告 (Epoch 41):
+                   precision    recall  f1-score   support
+
+   civil_airliner     0.9858    0.9838    0.9848       495
+       helicopter     0.9606    0.9799    0.9701       497
+military_aircraft     0.9595    0.9960    0.9774       499
+              uav     0.9873    0.9319    0.9588       499
+
+         accuracy                         0.9729      1990
+        macro avg     0.9733    0.9729    0.9728      1990
+     weighted avg     0.9733    0.9729    0.9728      1990
+
+验证集准确率未提升，耐心计数: 6/10
+Epoch: 42 | Batch: 50/472 | Loss: 0.0392 | Acc: 98.56%
+Epoch: 42 | Batch: 100/472 | Loss: 0.0359 | Acc: 98.56%
+Epoch: 42 | Batch: 150/472 | Loss: 0.0333 | Acc: 98.73%
+Epoch: 42 | Batch: 200/472 | Loss: 0.0341 | Acc: 98.67%
+Epoch: 42 | Batch: 250/472 | Loss: 0.0328 | Acc: 98.76%
+Epoch: 42 | Batch: 300/472 | Loss: 0.0318 | Acc: 98.82%
+Epoch: 42 | Batch: 350/472 | Loss: 0.0316 | Acc: 98.84%
+Epoch: 42 | Batch: 400/472 | Loss: 0.0308 | Acc: 98.90%
+Epoch: 42 | Batch: 450/472 | Loss: 0.0304 | Acc: 98.92%
+Epoch: 42 | Batch: 472/472 | Loss: 0.0302 | Acc: 98.91%
+训练 Epoch: 42 | Loss: 0.0302 | Acc: 98.91% | Time: 53.31s
+
+验证 Epoch: 42 | Loss: 0.0855 | Acc: 97.70%
+
+
+验证集分类报告 (Epoch 42):
+                   precision    recall  f1-score   support
+
+   civil_airliner     0.9840    0.9840    0.9840       500
+       helicopter     0.9761    0.9820    0.9791       500
+military_aircraft     0.9817    0.9660    0.9738       500
+              uav     0.9663    0.9760    0.9711       500
+
+         accuracy                         0.9770      2000
+        macro avg     0.9770    0.9770    0.9770      2000
+     weighted avg     0.9770    0.9770    0.9770      2000
+
+
+测试 Epoch: 42 | Loss: 0.0945 | Acc: 97.59%
+
+
+测试集分类报告 (Epoch 42):
+                   precision    recall  f1-score   support
+
+   civil_airliner     0.9800    0.9919    0.9859       495
+       helicopter     0.9625    0.9819    0.9721       497
+military_aircraft     0.9938    0.9619    0.9776       499
+              uav     0.9679    0.9679    0.9679       499
+
+         accuracy                         0.9759      1990
+        macro avg     0.9761    0.9759    0.9759      1990
+     weighted avg     0.9761    0.9759    0.9759      1990
+
+验证集准确率提升: 96.95% -> 97.70%
+Epoch: 43 | Batch: 50/472 | Loss: 0.0197 | Acc: 99.44%
+Epoch: 43 | Batch: 100/472 | Loss: 0.0241 | Acc: 99.34%
+Epoch: 43 | Batch: 150/472 | Loss: 0.0245 | Acc: 99.25%
+Epoch: 43 | Batch: 200/472 | Loss: 0.0226 | Acc: 99.25%
+Epoch: 43 | Batch: 250/472 | Loss: 0.0221 | Acc: 99.31%
+Epoch: 43 | Batch: 300/472 | Loss: 0.0215 | Acc: 99.33%
+Epoch: 43 | Batch: 350/472 | Loss: 0.0210 | Acc: 99.35%
+Epoch: 43 | Batch: 400/472 | Loss: 0.0237 | Acc: 99.23%
+Epoch: 43 | Batch: 450/472 | Loss: 0.0242 | Acc: 99.21%
+Epoch: 43 | Batch: 472/472 | Loss: 0.0250 | Acc: 99.17%
+训练 Epoch: 43 | Loss: 0.0250 | Acc: 99.17% | Time: 53.30s
+
+验证 Epoch: 43 | Loss: 0.1085 | Acc: 97.25%
+
+
+验证集分类报告 (Epoch 43):
+                   precision    recall  f1-score   support
+
+   civil_airliner     0.9723    0.9820    0.9771       500
+       helicopter     0.9666    0.9840    0.9752       500
+military_aircraft     0.9795    0.9540    0.9666       500
+              uav     0.9719    0.9700    0.9710       500
+
+         accuracy                         0.9725      2000
+        macro avg     0.9726    0.9725    0.9725      2000
+     weighted avg     0.9726    0.9725    0.9725      2000
+
+
+测试 Epoch: 43 | Loss: 0.1210 | Acc: 97.24%
+
+
+测试集分类报告 (Epoch 43):
+                   precision    recall  f1-score   support
+
+   civil_airliner     0.9723    0.9919    0.9820       495
+       helicopter     0.9549    0.9799    0.9672       497
+military_aircraft     0.9897    0.9599    0.9746       499
+              uav     0.9735    0.9579    0.9657       499
+
+         accuracy                         0.9724      1990
+        macro avg     0.9726    0.9724    0.9724      1990
+     weighted avg     0.9726    0.9724    0.9723      1990
+
+验证集准确率未提升，耐心计数: 1/10
+Epoch: 44 | Batch: 50/472 | Loss: 0.0273 | Acc: 99.19%
+Epoch: 44 | Batch: 100/472 | Loss: 0.0278 | Acc: 99.00%
+Epoch: 44 | Batch: 150/472 | Loss: 0.0269 | Acc: 99.00%
+Epoch: 44 | Batch: 200/472 | Loss: 0.0263 | Acc: 99.03%
+Epoch: 44 | Batch: 250/472 | Loss: 0.0258 | Acc: 99.05%
+Epoch: 44 | Batch: 300/472 | Loss: 0.0254 | Acc: 99.09%
+Epoch: 44 | Batch: 350/472 | Loss: 0.0271 | Acc: 99.02%
+Epoch: 44 | Batch: 400/472 | Loss: 0.0270 | Acc: 99.03%
+Epoch: 44 | Batch: 450/472 | Loss: 0.0268 | Acc: 99.06%
+Epoch: 44 | Batch: 472/472 | Loss: 0.0271 | Acc: 99.05%
+训练 Epoch: 44 | Loss: 0.0271 | Acc: 99.05% | Time: 53.50s
+
+验证 Epoch: 44 | Loss: 0.1059 | Acc: 97.70%
+
+
+验证集分类报告 (Epoch 44):
+                   precision    recall  f1-score   support
+
+   civil_airliner     0.9899    0.9840    0.9870       500
+       helicopter     0.9609    0.9840    0.9723       500
+military_aircraft     0.9818    0.9720    0.9769       500
+              uav     0.9758    0.9680    0.9719       500
+
+         accuracy                         0.9770      2000
+        macro avg     0.9771    0.9770    0.9770      2000
+     weighted avg     0.9771    0.9770    0.9770      2000
+
+
+测试 Epoch: 44 | Loss: 0.1301 | Acc: 97.49%
+
+
+测试集分类报告 (Epoch 44):
+                   precision    recall  f1-score   support
+
+   civil_airliner     0.9879    0.9879    0.9879       495
+       helicopter     0.9496    0.9859    0.9674       497
+military_aircraft     0.9897    0.9639    0.9766       499
+              uav     0.9736    0.9619    0.9677       499
+
+         accuracy                         0.9749      1990
+        macro avg     0.9752    0.9749    0.9749      1990
+     weighted avg     0.9752    0.9749    0.9749      1990
+
+验证集准确率未提升，耐心计数: 2/10
+Epoch: 45 | Batch: 50/472 | Loss: 0.0329 | Acc: 98.81%
+Epoch: 45 | Batch: 100/472 | Loss: 0.0239 | Acc: 99.19%
+Epoch: 45 | Batch: 150/472 | Loss: 0.0274 | Acc: 99.02%
+Epoch: 45 | Batch: 200/472 | Loss: 0.0246 | Acc: 99.11%
+Epoch: 45 | Batch: 250/472 | Loss: 0.0238 | Acc: 99.15%
+Epoch: 45 | Batch: 300/472 | Loss: 0.0254 | Acc: 99.10%
+Epoch: 45 | Batch: 350/472 | Loss: 0.0258 | Acc: 99.13%
+Epoch: 45 | Batch: 400/472 | Loss: 0.0254 | Acc: 99.16%
+Epoch: 45 | Batch: 450/472 | Loss: 0.0246 | Acc: 99.20%
+Epoch: 45 | Batch: 472/472 | Loss: 0.0244 | Acc: 99.23%
+训练 Epoch: 45 | Loss: 0.0244 | Acc: 99.23% | Time: 53.54s
+
+验证 Epoch: 45 | Loss: 0.0975 | Acc: 97.60%
+
+
+验证集分类报告 (Epoch 45):
+                   precision    recall  f1-score   support
+
+   civil_airliner     0.9899    0.9760    0.9829       500
+       helicopter     0.9520    0.9920    0.9716       500
+military_aircraft     0.9838    0.9740    0.9789       500
+              uav     0.9796    0.9620    0.9707       500
+
+         accuracy                         0.9760      2000
+        macro avg     0.9763    0.9760    0.9760      2000
+     weighted avg     0.9763    0.9760    0.9760      2000
+
+
+测试 Epoch: 45 | Loss: 0.1500 | Acc: 97.19%
+
+
+测试集分类报告 (Epoch 45):
+                   precision    recall  f1-score   support
+
+   civil_airliner     0.9704    0.9919    0.9810       495
+       helicopter     0.9516    0.9879    0.9694       497
+military_aircraft     0.9817    0.9699    0.9758       499
+              uav     0.9853    0.9379    0.9610       499
+
+         accuracy                         0.9719      1990
+        macro avg     0.9722    0.9719    0.9718      1990
+     weighted avg     0.9723    0.9719    0.9718      1990
+
+验证集准确率未提升，耐心计数: 3/10
+Epoch: 46 | Batch: 50/472 | Loss: 0.0145 | Acc: 99.62%
+Epoch: 46 | Batch: 100/472 | Loss: 0.0154 | Acc: 99.50%
+Epoch: 46 | Batch: 150/472 | Loss: 0.0177 | Acc: 99.42%
+Epoch: 46 | Batch: 200/472 | Loss: 0.0193 | Acc: 99.38%
+Epoch: 46 | Batch: 250/472 | Loss: 0.0192 | Acc: 99.35%
+Epoch: 46 | Batch: 300/472 | Loss: 0.0192 | Acc: 99.38%
+Epoch: 46 | Batch: 350/472 | Loss: 0.0216 | Acc: 99.28%
+Epoch: 46 | Batch: 400/472 | Loss: 0.0228 | Acc: 99.28%
+Epoch: 46 | Batch: 450/472 | Loss: 0.0236 | Acc: 99.27%
+Epoch: 46 | Batch: 472/472 | Loss: 0.0239 | Acc: 99.23%
+训练 Epoch: 46 | Loss: 0.0239 | Acc: 99.23% | Time: 53.60s
+
+验证 Epoch: 46 | Loss: 0.1002 | Acc: 97.25%
+
+
+验证集分类报告 (Epoch 46):
+                   precision    recall  f1-score   support
+
+   civil_airliner     0.9762    0.9840    0.9801       500
+       helicopter     0.9591    0.9840    0.9714       500
+military_aircraft     0.9856    0.9600    0.9726       500
+              uav     0.9698    0.9620    0.9659       500
+
+         accuracy                         0.9725      2000
+        macro avg     0.9727    0.9725    0.9725      2000
+     weighted avg     0.9727    0.9725    0.9725      2000
+
+
+测试 Epoch: 46 | Loss: 0.1202 | Acc: 97.69%
+
+
+测试集分类报告 (Epoch 46):
+                   precision    recall  f1-score   support
+
+   civil_airliner     0.9782    0.9980    0.9880       495
+       helicopter     0.9627    0.9879    0.9752       497
+military_aircraft     0.9917    0.9599    0.9756       499
+              uav     0.9756    0.9619    0.9687       499
+
+         accuracy                         0.9769      1990
+        macro avg     0.9771    0.9769    0.9769      1990
+     weighted avg     0.9771    0.9769    0.9768      1990
+
+验证集准确率未提升，耐心计数: 4/10
+Epoch: 47 | Batch: 50/472 | Loss: 0.0293 | Acc: 99.19%
+Epoch: 47 | Batch: 100/472 | Loss: 0.0297 | Acc: 99.19%
+Epoch: 47 | Batch: 150/472 | Loss: 0.0271 | Acc: 99.23%
+Epoch: 47 | Batch: 200/472 | Loss: 0.0272 | Acc: 99.20%
+Epoch: 47 | Batch: 250/472 | Loss: 0.0272 | Acc: 99.22%
+Epoch: 47 | Batch: 300/472 | Loss: 0.0260 | Acc: 99.25%
+Epoch: 47 | Batch: 350/472 | Loss: 0.0270 | Acc: 99.20%
+Epoch: 47 | Batch: 400/472 | Loss: 0.0275 | Acc: 99.15%
+Epoch: 47 | Batch: 450/472 | Loss: 0.0261 | Acc: 99.20%
+Epoch: 47 | Batch: 472/472 | Loss: 0.0262 | Acc: 99.19%
+训练 Epoch: 47 | Loss: 0.0262 | Acc: 99.19% | Time: 60.16s
+
+验证 Epoch: 47 | Loss: 0.0863 | Acc: 97.75%
+
+
+验证集分类报告 (Epoch 47):
+                   precision    recall  f1-score   support
+
+   civil_airliner     0.9820    0.9800    0.9810       500
+       helicopter     0.9743    0.9840    0.9791       500
+military_aircraft     0.9817    0.9680    0.9748       500
+              uav     0.9722    0.9780    0.9751       500
+
+         accuracy                         0.9775      2000
+        macro avg     0.9775    0.9775    0.9775      2000
+     weighted avg     0.9775    0.9775    0.9775      2000
+
+
+测试 Epoch: 47 | Loss: 0.1163 | Acc: 97.24%
+
+
+测试集分类报告 (Epoch 47):
+                   precision    recall  f1-score   support
+
+   civil_airliner     0.9703    0.9899    0.9800       495
+       helicopter     0.9587    0.9819    0.9702       497
+military_aircraft     0.9855    0.9539    0.9695       499
+              uav     0.9757    0.9639    0.9698       499
+
+         accuracy                         0.9724      1990
+        macro avg     0.9726    0.9724    0.9723      1990
+     weighted avg     0.9726    0.9724    0.9723      1990
+
+验证集准确率提升: 97.70% -> 97.75%
+Epoch: 48 | Batch: 50/472 | Loss: 0.0185 | Acc: 99.12%
+Epoch: 48 | Batch: 100/472 | Loss: 0.0229 | Acc: 99.16%
+Epoch: 48 | Batch: 150/472 | Loss: 0.0235 | Acc: 99.04%
+Epoch: 48 | Batch: 200/472 | Loss: 0.0213 | Acc: 99.16%
+Epoch: 48 | Batch: 250/472 | Loss: 0.0212 | Acc: 99.19%
+Epoch: 48 | Batch: 300/472 | Loss: 0.0223 | Acc: 99.19%
+Epoch: 48 | Batch: 350/472 | Loss: 0.0221 | Acc: 99.20%
+Epoch: 48 | Batch: 400/472 | Loss: 0.0237 | Acc: 99.15%
+Epoch: 48 | Batch: 450/472 | Loss: 0.0240 | Acc: 99.12%
+Epoch: 48 | Batch: 472/472 | Loss: 0.0241 | Acc: 99.11%
+训练 Epoch: 48 | Loss: 0.0241 | Acc: 99.11% | Time: 59.56s
+
+验证 Epoch: 48 | Loss: 0.1083 | Acc: 97.20%
+
+
+验证集分类报告 (Epoch 48):
+                   precision    recall  f1-score   support
+
+   civil_airliner     0.9898    0.9660    0.9777       500
+       helicopter     0.9628    0.9840    0.9733       500
+military_aircraft     0.9759    0.9700    0.9729       500
+              uav     0.9603    0.9680    0.9641       500
+
+         accuracy                         0.9720      2000
+        macro avg     0.9722    0.9720    0.9720      2000
+     weighted avg     0.9722    0.9720    0.9720      2000
+
+
+测试 Epoch: 48 | Loss: 0.1127 | Acc: 97.89%
+
+
+测试集分类报告 (Epoch 48):
+                   precision    recall  f1-score   support
+
+   civil_airliner     0.9879    0.9919    0.9899       495
+       helicopter     0.9684    0.9859    0.9771       497
+military_aircraft     0.9879    0.9780    0.9829       499
+              uav     0.9716    0.9599    0.9657       499
+
+         accuracy                         0.9789      1990
+        macro avg     0.9789    0.9789    0.9789      1990
+     weighted avg     0.9789    0.9789    0.9789      1990
+
+验证集准确率未提升，耐心计数: 1/10
+Epoch: 49 | Batch: 50/472 | Loss: 0.0283 | Acc: 99.06%
+Epoch: 49 | Batch: 100/472 | Loss: 0.0224 | Acc: 99.31%
+Epoch: 49 | Batch: 150/472 | Loss: 0.0228 | Acc: 99.19%
+Epoch: 49 | Batch: 200/472 | Loss: 0.0198 | Acc: 99.31%
+Epoch: 49 | Batch: 250/472 | Loss: 0.0204 | Acc: 99.30%
+Epoch: 49 | Batch: 300/472 | Loss: 0.0208 | Acc: 99.28%
+Epoch: 49 | Batch: 350/472 | Loss: 0.0218 | Acc: 99.25%
+Epoch: 49 | Batch: 400/472 | Loss: 0.0214 | Acc: 99.26%
+Epoch: 49 | Batch: 450/472 | Loss: 0.0228 | Acc: 99.20%
+Epoch: 49 | Batch: 472/472 | Loss: 0.0240 | Acc: 99.15%
+训练 Epoch: 49 | Loss: 0.0240 | Acc: 99.15% | Time: 53.42s
+
+验证 Epoch: 49 | Loss: 0.0884 | Acc: 97.45%
+
+
+验证集分类报告 (Epoch 49):
+                   precision    recall  f1-score   support
+
+   civil_airliner     0.9840    0.9820    0.9830       500
+       helicopter     0.9761    0.9800    0.9780       500
+military_aircraft     0.9644    0.9760    0.9702       500
+              uav     0.9736    0.9600    0.9668       500
+
+         accuracy                         0.9745      2000
+        macro avg     0.9745    0.9745    0.9745      2000
+     weighted avg     0.9745    0.9745    0.9745      2000
+
+
+测试 Epoch: 49 | Loss: 0.1183 | Acc: 97.94%
+
+
+测试集分类报告 (Epoch 49):
+                   precision    recall  f1-score   support
+
+   civil_airliner     0.9839    0.9859    0.9849       495
+       helicopter     0.9740    0.9799    0.9769       497
+military_aircraft     0.9821    0.9880    0.9850       499
+              uav     0.9776    0.9639    0.9707       499
+
+         accuracy                         0.9794      1990
+        macro avg     0.9794    0.9794    0.9794      1990
+     weighted avg     0.9794    0.9794    0.9794      1990
+
+验证集准确率未提升，耐心计数: 2/10
+Epoch: 50 | Batch: 50/472 | Loss: 0.0347 | Acc: 98.81%
+Epoch: 50 | Batch: 100/472 | Loss: 0.0296 | Acc: 99.00%
+Epoch: 50 | Batch: 150/472 | Loss: 0.0302 | Acc: 99.04%
+Epoch: 50 | Batch: 200/472 | Loss: 0.0273 | Acc: 99.11%
+Epoch: 50 | Batch: 250/472 | Loss: 0.0293 | Acc: 99.03%
+Epoch: 50 | Batch: 300/472 | Loss: 0.0278 | Acc: 99.06%
+Epoch: 50 | Batch: 350/472 | Loss: 0.0268 | Acc: 99.11%
+Epoch: 50 | Batch: 400/472 | Loss: 0.0275 | Acc: 99.07%
+Epoch: 50 | Batch: 450/472 | Loss: 0.0271 | Acc: 99.09%
+Epoch: 50 | Batch: 472/472 | Loss: 0.0265 | Acc: 99.11%
+训练 Epoch: 50 | Loss: 0.0265 | Acc: 99.11% | Time: 54.47s
+
+验证 Epoch: 50 | Loss: 0.0888 | Acc: 97.80%
+
+
+验证集分类报告 (Epoch 50):
+                   precision    recall  f1-score   support
+
+   civil_airliner     0.9919    0.9740    0.9828       500
+       helicopter     0.9703    0.9800    0.9751       500
+military_aircraft     0.9612    0.9900    0.9754       500
+              uav     0.9898    0.9680    0.9788       500
+
+         accuracy                         0.9780      2000
+        macro avg     0.9783    0.9780    0.9780      2000
+     weighted avg     0.9783    0.9780    0.9780      2000
+
+
+测试 Epoch: 50 | Loss: 0.1141 | Acc: 97.59%
+
+
+测试集分类报告 (Epoch 50):
+                   precision    recall  f1-score   support
+
+   civil_airliner     0.9898    0.9818    0.9858       495
+       helicopter     0.9646    0.9859    0.9751       497
+military_aircraft     0.9648    0.9900    0.9773       499
+              uav     0.9854    0.9459    0.9652       499
+
+         accuracy                         0.9759      1990
+        macro avg     0.9762    0.9759    0.9759      1990
+     weighted avg     0.9761    0.9759    0.9758      1990
+
+验证集准确率提升: 97.75% -> 97.80%
+训练结束! 总耗时: 3162.88秒 (52.71分钟)
+最佳验证集准确率: 97.80% (Epoch 50)
+加载最佳模型进行最终测试...
+
+测试 Epoch: 50 | Loss: 0.1141 | Acc: 97.59%
+
+
+测试集分类报告 (Epoch 50):
+                   precision    recall  f1-score   support
+
+   civil_airliner     0.9898    0.9818    0.9858       495
+       helicopter     0.9646    0.9859    0.9751       497
+military_aircraft     0.9648    0.9900    0.9773       499
+              uav     0.9854    0.9459    0.9652       499
+
+         accuracy                         0.9759      1990
+        macro avg     0.9762    0.9759    0.9759      1990
+     weighted avg     0.9761    0.9759    0.9758      1990
+
+最终测试准确率: 97.59%
+所有结果已保存到 newmodels-resnet 目录

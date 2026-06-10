@@ -1,0 +1,10 @@
+                   precision    recall  f1-score   support
+
+   civil_airliner     0.9899    0.9840    0.9870       500
+       helicopter     0.9609    0.9840    0.9723       500
+military_aircraft     0.9818    0.9720    0.9769       500
+              uav     0.9758    0.9680    0.9719       500
+
+         accuracy                         0.9770      2000
+        macro avg     0.9771    0.9770    0.9770      2000
+     weighted avg     0.9771    0.9770    0.9770      2000

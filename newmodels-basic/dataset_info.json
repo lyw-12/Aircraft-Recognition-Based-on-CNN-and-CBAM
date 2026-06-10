@@ -1,0 +1,22 @@
+{
+    "classes": [
+        "civil_airliner",
+        "helicopter",
+        "military_aircraft",
+        "uav"
+    ],
+    "train_samples": 15104,
+    "test_samples": 1990,
+    "train_samples_per_class": {
+        "civil_airliner": 4050,
+        "helicopter": 3647,
+        "military_aircraft": 3670,
+        "uav": 3737
+    },
+    "test_samples_per_class": {
+        "civil_airliner": 495,
+        "helicopter": 497,
+        "military_aircraft": 499,
+        "uav": 499
+    }
+}
