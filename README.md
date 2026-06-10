@@ -262,12 +262,4 @@ Aircraft-Recognition-Based-on-CNN-and-CbAM/
 
 ---
 
-## 📄 License
-
-MIT License
-
----
-
----
-
 *如果这个项目对你有帮助，欢迎给个 ⭐️！*
