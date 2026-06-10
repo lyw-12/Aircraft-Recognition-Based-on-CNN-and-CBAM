@@ -4,7 +4,6 @@
 [![Python](https://img.shields.io/badge/Python-3.6+-blue.svg)](https://www.python.org/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](#license)
 
-> 🎓 南京工业大学 2025 届本科毕业设计 — 李业伟
 
 ## 📖 项目简介
 
@@ -268,14 +267,6 @@ Aircraft-Recognition-Based-on-CNN-and-CbAM/
 MIT License
 
 ---
-
-## 👤 作者
-
-**李业伟 (lyw-12)**
-
-- GitHub: [@lyw-12](https://github.com/lyw-12)
-- 毕业设计导师：姜华
-- 南京工业大学 · 数据科学与大数据技术 2101
 
 ---
 
