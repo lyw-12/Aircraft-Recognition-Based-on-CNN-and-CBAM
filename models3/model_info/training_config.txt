@@ -1,9 +1,0 @@
-批处理大小: 64
-训练轮数: 50
-初始学习率: 0.001
-权重衰减系数: 0.0001
-优化器: AdamW (amsgrad=True)
-学习率调度: CosineAnnealingLR (T_max=50, eta_min=1e-6)
-数据集路径: aircraft_dataset
-训练设备: cuda:0
-是否使用混合精度训练: True
